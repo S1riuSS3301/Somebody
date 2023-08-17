@@ -1,0 +1,70 @@
+- type: entity
+  name: Ratvar
+  id: MobRatvar
+  parent: SimpleMobBase
+  suffix:
+  description: GOD Ratvar
+  components:
+  - type: Godmode
+  - type: CombatMode
+  - type: Actions
+  - type: Hands
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 3.00
+    baseSprintSpeed : 5.00
+  - type: InputMover
+  - type: MobMover
+  - type: HTN
+    rootTask: SimpleHostileCompound
+  - type: Reactive
+    groups:
+      Flammable: [Touch]
+      Extinguish: [Touch]
+  - type: Faction
+    factions:
+    - SimpleHostile
+  - type: Sprite
+    drawdepth: Mobs
+    noRot: true
+    sprite: Mobs/Gods/Ratvar.rsi
+    state: anim
+    shader: unshaded
+    netsync: false
+  - type: Physics
+    bodyType: KinematicController
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.3
+        density: 230
+        mask:
+        - SmallMobMask
+        layer:
+        - SmallMobLayer
+  - type: MobState
+  - type: Appearance
+  - type: GhostRole
+    makeSentient: true
+    name: ghost-role-information-ratvar-name
+    description: ghost-role-information-ratvar-description
+  - type: GhostTakeoverAvailable
+  - type: Tag
+    tags:
+      - CannotSuicide
+      - DoorBumpOpener
+      - FootstepSound
+  - type: NoSlip
+  - type: Ratvar
+    actionPunishLightning:
+      icon: Interface/Alerts/Weightless/weightless.png
+      name: ratvar-punish-lightning-name
+      description: ratvar-punish-lightning-description
+      itemIconStyle: NoItem
+      event: !type:RatvarPunishLightningActionEvent
+  - type: MobsterAccent
+  - type: Butcherable
+    spawned:
+    - id: ClothingHeadHatFancyCrown #how did that get there?
+      amount: 1
