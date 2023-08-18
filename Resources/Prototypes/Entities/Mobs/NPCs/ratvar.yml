@@ -13,14 +13,12 @@
     baseWalkSpeed : 3.00
     baseSprintSpeed : 5.00
   - type: InputMover
-  - type: MobMover
-  - type: HTN
     rootTask: SimpleHostileCompound
   - type: Reactive
     groups:
       Flammable: [Touch]
       Extinguish: [Touch]
-  - type: Faction
+  - type: NpcFactionMember
     factions:
     - SimpleHostile
   - type: Sprite
@@ -43,7 +41,6 @@
         - SmallMobMask
         layer:
         - SmallMobLayer
-  - type: MobState
   - type: Appearance
   - type: GhostRole
     makeSentient: true
