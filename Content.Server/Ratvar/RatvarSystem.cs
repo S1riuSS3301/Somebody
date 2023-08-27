@@ -21,7 +21,7 @@ using Robust.Shared.Utility;
 
 namespace Content.Server.Ratvar
 {
-    public sealed class RatvarSystem : EntitySystem
+    public sealed partial class RatvarSystem : EntitySystem
     {
         [Dependency] private readonly ActionsSystem _action = default!;
         [Dependency] private readonly AtmosphereSystem _atmos = default!;
@@ -112,7 +112,7 @@ namespace Content.Server.Ratvar
 
     }
 
-    public sealed class RatvarPunishLightningActionEvent : InstantActionEvent
+    public sealed partial class RatvarPunishLightningActionEvent : InstantActionEvent
     {
 
     }

@@ -5,7 +5,7 @@ using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototy
 namespace Content.Server.Ratvar
 {
     [RegisterComponent]
-    public sealed class RatvarComponent : Component
+    public sealed partial class RatvarComponent : Component
     {
         /// <summary>
         ///     The action for the Punish with Lightning
