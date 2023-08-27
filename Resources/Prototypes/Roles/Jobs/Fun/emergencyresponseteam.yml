@@ -26,6 +26,9 @@
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityFilled
     pocket1: Flare
+    underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
+  underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
+  underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear
 
 - type: startingGear
   id: ERTLeaderGearEVA
@@ -42,6 +45,9 @@
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityFilled
     pocket1: Flare
+    underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
+  underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
+  underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear
 
 # Engineer
 - type: job
@@ -71,6 +77,10 @@
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltChiefEngineerFilled
     pocket1: Flare
+    underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
+  underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
+  underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear
+
 
 - type: startingGear
   id: ERTEngineerGearEVA
@@ -87,6 +97,9 @@
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltChiefEngineerFilled
     pocket1: Flare
+    underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
+  underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
+  underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear
 
 # Security
 - type: job
@@ -117,6 +130,9 @@
     belt: ClothingBeltSecurityFilled
     pocket1: Flare
     pocket2: FlashlightSeclite
+    underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
+  underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
+  underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear
 
 - type: startingGear
   id: ERTSecurityGearEVA
@@ -134,6 +150,9 @@
     belt: ClothingBeltSecurityFilled
     pocket1: Flare
     pocket2: FlashlightSeclite
+    underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
+  underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
+  underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear
 
 # Medical
 - type: job
@@ -164,6 +183,9 @@
     belt: ClothingBeltMedicalFilled
     pocket1: HandheldHealthAnalyzer
     pocket2: Flare
+    underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
+  underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
+  underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear
 
 - type: startingGear
   id: ERTMedicalGearEVA
@@ -181,6 +203,9 @@
     belt: ClothingBeltMedicalFilled
     pocket1: HandheldHealthAnalyzer
     pocket2: Flare
+    underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
+  underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
+  underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear
 
 # Janitor
 - type: job
@@ -209,6 +234,9 @@
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltJanitorFilled
     pocket1: Flare
+    underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
+  underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
+  underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear
 
 - type: startingGear
   id: ERTJanitorGearEVA
@@ -224,3 +252,6 @@
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltJanitorFilled
     pocket1: Flare
+    underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
+  underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
+  underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear

@@ -33,6 +33,9 @@
     eyes: ClothingEyesGlassesMeson
     belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetEngineering
+    underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
+  underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
+  underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear
   innerclothingskirt: ClothingUniformJumpskirtSeniorEngineer
   satchel: ClothingBackpackSatchelEngineeringFilled
   duffelbag: ClothingBackpackDuffelEngineeringFilled

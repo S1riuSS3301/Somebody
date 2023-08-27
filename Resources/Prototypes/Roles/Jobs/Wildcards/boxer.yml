@@ -20,6 +20,9 @@
     gloves: ClothingHandsGlovesBoxingRed
     shoes: ClothingShoesColorRed
     belt: ClothingBeltChampion
+    underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
+  underweart: ClothingUnderwearTopBraSports # AlphaCentauri-Underwear
+  underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear
   innerclothingskirt: UniformShortsRedWithTop
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled

@@ -33,6 +33,9 @@
     ears: ClothingHeadsetSecurity
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolMk58Nonlethal
+    underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
+  underweart: ClothingUnderwearTopBraSportsAlternative # AlphaCentauri-Underwear
+  underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear
   innerclothingskirt: ClothingUniformJumpskirtWarden
   satchel: ClothingBackpackSatchelSecurityFilled
   duffelbag: ClothingBackpackDuffelSecurityFilled

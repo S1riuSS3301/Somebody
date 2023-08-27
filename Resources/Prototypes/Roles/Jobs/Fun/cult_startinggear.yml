@@ -10,6 +10,9 @@
     shoes: ClothingShoesCult
     id: PassengerPDA
     ears: ClothingHeadsetService
+    underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
+  underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
+  underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear
   innerclothingskirt: ClothingUniformJumpskirtColorBlack
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled
@@ -24,6 +27,9 @@
     shoes: ClothingShoesColorRed
     id: PassengerPDA
     ears: ClothingHeadsetService
+    underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
+  underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
+  underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear
   innerclothingskirt: ClothingUniformJumpskirtColorBlack
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled

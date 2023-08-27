@@ -24,3 +24,6 @@
     ears: ClothingHeadsetAltCentCom
     pocket1: BoxFolderBlack
     pocket2: PenCentcom
+    underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
+  underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
+  underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear

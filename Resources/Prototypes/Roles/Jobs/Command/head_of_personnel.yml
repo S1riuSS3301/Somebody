@@ -59,6 +59,9 @@
     head: ClothingHeadHatHopcap
     id: HoPPDA
     ears: ClothingHeadsetAltCommand
+    underwearb: ClothingUnderwearBottomBoxersHOP # AlphaCentauri-Underwear
+  underweart: ClothingUnderwearTopBraHOP # AlphaCentauri-Underwear
+  underwearb: ClothingUnderwearBottomPantiesHOP # AlphaCentauri-Underwear
   innerclothingskirt: ClothingUniformJumpskirtHoP
   satchel: ClothingBackpackSatchelHOPFilled
   duffelbag: ClothingBackpackDuffelHOPFilled

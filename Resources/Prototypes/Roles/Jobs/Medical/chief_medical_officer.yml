@@ -40,6 +40,9 @@
     id: CMOPDA
     ears: ClothingHeadsetCMO
     belt: ClothingBeltMedicalFilled
+    underwearb: ClothingUnderwearBottomBoxersCMO # AlphaCentauri-Underwear
+  underweart: ClothingUnderwearTopBraCMO # AlphaCentauri-Underwear
+  underwearb: ClothingUnderwearBottomPantiesCMO # AlphaCentauri-Underwear
   innerclothingskirt: ClothingUniformJumpskirtCMO
   satchel: ClothingBackpackSatchelCMOFilled
   duffelbag: ClothingBackpackDuffelCMOFilled

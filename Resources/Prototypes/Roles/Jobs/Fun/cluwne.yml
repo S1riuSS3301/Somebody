@@ -8,9 +8,11 @@
     id: CluwnePDA
     gloves: ClothingHandsGlovesCluwne
     pocket1: CluwneHorn
+    underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
+  underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
+  underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear
 
 - type: startingGear
   id: HoloClownGear
   equipment:
     pocket1: BikeHorn
-

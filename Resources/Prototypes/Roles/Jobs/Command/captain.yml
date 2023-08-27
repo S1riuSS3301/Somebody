@@ -40,6 +40,9 @@
     outerClothing: ClothingOuterArmorCaptainCarapace
     id: CaptainPDA
     ears: ClothingHeadsetAltCommand
+    underwearb: ClothingUnderwearBottomBoxersCap # AlphaCentauri-Underwear
+  underweart: ClothingUnderwearTopBraCap # AlphaCentauri-Underwear
+  underwearb: ClothingUnderwearBottomPantiesCap # AlphaCentauri-Underwear
   innerclothingskirt: ClothingUniformJumpskirtCaptain
   satchel: ClothingBackpackSatchelCaptainFilled
   duffelbag: ClothingBackpackDuffelCaptainFilled

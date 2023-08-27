@@ -30,6 +30,9 @@
     outerClothing: ClothingOuterCoatRnd
     id: RnDPDA
     ears: ClothingHeadsetRD
+    underwearb: ClothingUnderwearBottomBoxersRD # AlphaCentauri-Underwear
+  underweart: ClothingUnderwearTopBraRD # AlphaCentauri-Underwear
+  underwearb: ClothingUnderwearBottomPantiesRD # AlphaCentauri-Underwear
   innerclothingskirt: ClothingUniformJumpskirtResearchDirector
   satchel: ClothingBackpackSatchelResearchDirectorFilled
   duffelbag: ClothingBackpackDuffelResearchDirectorFilled

@@ -58,6 +58,11 @@
     ClothingHeadFishCap: 2
     ClothingHeadRastaHat: 2
     ClothingBeltStorageWaistbag: 3
+    # AlphaCentauri-Start
+    ClothingUnderwearBottomPantiesWhite: 5
+    ClothingUnderwearTopBraWhite: 5
+    ClothingUnderwearBottomBoxersWhite: 5
+    # AlphaCentauri-End
   contrabandInventory:
     ClothingUniformJumpsuitTacticool: 1
     ClothingUniformJumpskirtTacticool: 1

@@ -38,6 +38,9 @@
     id: QuartermasterPDA
     ears: ClothingHeadsetQM
     pocket1: AppraisalTool
+    underwearb: ClothingUnderwearBottomBoxersQM # AlphaCentauri-Underwear
+  underweart: ClothingUnderwearTopBraQM # AlphaCentauri-Underwear
+  underwearb: ClothingUnderwearBottomPantiesQM # AlphaCentauri-Underwear
   innerclothingskirt: ClothingUniformJumpskirtQM
   satchel: ClothingBackpackSatchelQuartermasterFilled
   duffelbag: ClothingBackpackDuffelQuartermasterFilled
