@@ -29,6 +29,7 @@
 <Box>
 <GuideEntityEmbed Entity="RadiationCollector"/>
 <GuideEntityEmbed Entity="PlasmaTank"/>
+<GuideEntityEmbed Entity="PlasmaTank"/>
 </Box>
 Накопители радиации подключаются к ВВ кабелям и, при включении, генерируют электроэнергию за счёт потоков радиации.
 They connect to HV cables and generate power from nearby radiation sources when turned on.
