@@ -34,8 +34,8 @@ public sealed partial class DiseaseAdjustReagent : DiseaseEffect
             var solutionSys = args.EntityManager.EntitySysManager.GetEntitySystem<SolutionContainerSystem>();
             if (Reagent != null)
             {
-                if (Amount < 0 && stream.ContainsReagent(Reagent))
-                    solutionSys.TryRemoveReagent(args.DiseasedEntity, stream, Reagent, -Amount);
+                if (Amount < 0 && stream.ContainsPrototype(Reagent))
+                    solutionSys.RemoveReagent(args.DiseasedEntity, stream, Reagent, -Amount);
                 if (Amount > 0)
                     solutionSys.TryAddReagent(args.DiseasedEntity, stream, Reagent, Amount, out _);
             }

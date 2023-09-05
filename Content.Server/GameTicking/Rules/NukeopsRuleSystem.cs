@@ -235,7 +235,7 @@ public sealed class NukeopsRuleSystem : GameRuleSystem<NukeopsRuleComponent>
             var name = MetaData(uid).EntityName;
             if (session != null)
                 nukeops.OperativePlayers.Add(name, session);
-            RemComp<PacifiedComponent>(uid); // Corvax-DionaPacifist: Allow dionas nukes to harm
+            //RemComp<PacifiedComponent>(uid); // Corvax-DionaPacifist: Allow dionas nukes to harm
         }
     }
 

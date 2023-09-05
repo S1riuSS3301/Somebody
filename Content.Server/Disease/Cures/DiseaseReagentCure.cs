@@ -26,9 +26,9 @@ public sealed partial class DiseaseReagentCure : DiseaseCure
             return false;
 
         var quant = FixedPoint2.Zero;
-        if (Reagent != null && bloodstream.ChemicalSolution.ContainsReagent(Reagent))
+        if (Reagent != null && bloodstream.ChemicalSolution.ContainsPrototype(Reagent))
         {
-            quant = bloodstream.ChemicalSolution.GetReagentQuantity(Reagent);
+            quant = bloodstream.ChemicalSolution.GetTotalPrototypeQuantity(Reagent);
         }
         return quant >= Min;
     }

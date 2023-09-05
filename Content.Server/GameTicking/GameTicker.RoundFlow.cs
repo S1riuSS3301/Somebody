@@ -367,8 +367,6 @@ namespace Content.Server.GameTicking
 
                 var roles = _roles.MindGetAllRoles(mindId);
 
-                var roles = _roles.MindGetAllRoles(mindId);
-
                 var playerEndRoundInfo = new RoundEndMessageEvent.RoundEndPlayerInfo()
                 {
                     // Note that contentPlayerData?.Name sticks around after the player is disconnected.
