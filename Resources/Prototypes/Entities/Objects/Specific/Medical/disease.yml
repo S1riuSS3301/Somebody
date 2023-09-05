@@ -14,9 +14,9 @@
     - Recyclable
     - Trash
   - type: BotanySwab
+  - type: DiseaseSwab
   - type: GuideHelp
     guides:
-  # - Virology (when it's back)
     - Botany
 
 - type: entity
@@ -30,3 +30,4 @@
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
     state: salpen
+  - type: DiseaseVaccine

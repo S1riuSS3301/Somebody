@@ -85,6 +85,7 @@
       - TemporaryBlindness
       - Pacified
       - StaminaModifier
+  - type: DiseaseCarrier
   - type: Blindable
   # Other
   - type: Inventory
