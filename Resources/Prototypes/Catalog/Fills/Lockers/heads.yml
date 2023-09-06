@@ -305,7 +305,6 @@
       - id: ClothingUnderwearBottomBoxersRD
       - id: ClothingUnderwearBottomPantiesRD
       - id: ClothingUnderwearTopBraRD
-      - id: AnomalyPinpointer
       # AlphaCentauri-Underwear-End
 
 - type: entity
