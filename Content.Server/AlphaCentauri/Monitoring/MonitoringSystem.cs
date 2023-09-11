@@ -126,8 +126,8 @@ public sealed partial class MonitoringSystem : EntitySystem
                 playerName = EntityManager.GetComponent<MetaDataComponent>(session.AttachedEntity.Value).EntityName;
             if (_minds.TryGetMind(session, out var mindId, out _))
                 startingRole = _jobs.MindTryGetJobName(mindId);
-
-            content += playerName + ": " + startingRole + "\n";
+            if(playerName!=string.Empty)
+                content += playerName + ": " + startingRole + "\n";
         });
         return content;
     }
