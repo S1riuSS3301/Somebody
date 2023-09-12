@@ -1,31 +1,4 @@
 Entries:
-- author: FillerVK
-  changes:
-  - {message: Departure Terminal update., type: Tweak}
-  id: 4306
-  time: '2023-07-23T05:32:04.0000000+00:00'
-- author: Flareguy
-  changes:
-  - {message: Changed the roundstart traitor sound effect back to the old one., type: Tweak}
-  id: 4307
-  time: '2023-07-23T05:53:01.0000000+00:00'
-- author: Skarlet
-  changes:
-  - {message: Added Cap's Cap, type: Add}
-  - {message: Changed Hop Cap's description, type: Tweak}
-  id: 4308
-  time: '2023-07-23T19:15:53.0000000+00:00'
-- author: Errant
-  changes:
-  - {message: Emergency and Double oxygen tanks that spawn empty now have the same
-      internal volume as filled ones., type: Fix}
-  id: 4309
-  time: '2023-07-23T19:17:32.0000000+00:00'
-- author: deltanedas
-  changes:
-  - {message: Salt is now white instead of red., type: Tweak}
-  id: 4310
-  time: '2023-07-23T19:17:46.0000000+00:00'
 - author: JoeHammad
   changes:
   - {message: Due to ERT's lackluster performance CentCom has decided to slightly
@@ -2984,3 +2957,32 @@ Entries:
   - {message: Storage (e.g. backpacks) is now predicted and using FancyWindow., type: Fix}
   id: 4805
   time: '2023-09-11T11:20:47.0000000+00:00'
+- author: chromiumboy
+  changes:
+  - {message: Artifact containers now heavily suppress the radioactivity of any irradiated
+      alien artifacts that they contain, type: Add}
+  id: 4806
+  time: '2023-09-11T19:58:26.0000000+00:00'
+- author: DrSmugleaf
+  changes:
+  - {message: Fixed "failed to insert into storage" messages being broken., type: Fix}
+  id: 4807
+  time: '2023-09-11T22:57:27.0000000+00:00'
+- author: metalgearsloth
+  changes:
+  - {message: Added automatic area pickups to ore bags., type: Add}
+  - {message: Fix stackable items not playing the pickup animation on pickup., type: Fix}
+  id: 4808
+  time: '2023-09-12T12:34:04.0000000+00:00'
+- author: metalgearsloth
+  changes:
+  - {message: Fix lights not always updating., type: Fix}
+  id: 4809
+  time: '2023-09-12T14:35:08.0000000+00:00'
+- author: JoeHammad
+  changes:
+  - {message: 'Nukies now start with a microbomb implant in their backpack, remember
+      to communicate if you''re gonna use it!', type: Add}
+  - {message: The microbomb implanter has been removed from the nukie uplink, type: Remove}
+  id: 4810
+  time: '2023-09-12T15:09:33.0000000+00:00'
