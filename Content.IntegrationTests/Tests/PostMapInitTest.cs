@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading;
@@ -48,6 +48,8 @@ namespace Content.IntegrationTests.Tests
             "CorvaxAvrite",
             "CorvaxDelta",
             "CorvaxIshimura",
+			"CorvaxSpectrum",
+            "CorvaxGate",
             // Corvax-End
             "Dev",
             "TestTeg",

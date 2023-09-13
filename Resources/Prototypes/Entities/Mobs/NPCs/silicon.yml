@@ -114,7 +114,6 @@
     speechVerb: Robotic
   - type: TypingIndicator
     proto: robot
-  - type: ZombieImmune
 
 - type: entity
   parent: [ MobSiliconBase, BaseVehicle]
@@ -153,6 +152,8 @@
   - type: Construction
     graph: TaxiBot
     node: bot
+  - type: TTS # Corvax-TTS
+    voice: Robold
 
 - type: entity
   parent: MobSiliconBaseVehicle
@@ -181,6 +182,8 @@
     containers:
       storagebase: !type:Container
         ents: []
+  - type: TTS # Corvax-TTS
+    voice: Robold
 
 - type: entity
   parent: MobSiliconBase
