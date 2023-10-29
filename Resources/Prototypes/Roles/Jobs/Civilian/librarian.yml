@@ -19,13 +19,10 @@
     id: LibrarianPDA
     ears: ClothingHeadsetService
     pocket1: d10Dice
-    belt: BooksBag
     pocket2: HandLabeler # for making named bestsellers
     underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
   underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
   underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear
-  inhand:
-    right hand: BriefcaseBrownFilled
-  innerclothingskirt: ClothingUniformJumpskirtLibrarian # Corvax-Resprite
+  innerClothingSkirt: ClothingUniformJumpskirtLibrarian
   satchel: ClothingBackpackSatchelLibrarianFilled
   duffelbag: ClothingBackpackDuffelLibrarianFilled

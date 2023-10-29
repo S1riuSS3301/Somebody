@@ -27,6 +27,12 @@
   canBeAntag: false
   accessGroups:
   - AllAccess
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
 
 - type: startingGear
   id: CaptainGear
@@ -43,6 +49,6 @@
     underwearb: ClothingUnderwearBottomBoxersCap # AlphaCentauri-Underwear
   underweart: ClothingUnderwearTopBraCap # AlphaCentauri-Underwear
   underwearb: ClothingUnderwearBottomPantiesCap # AlphaCentauri-Underwear
-  innerclothingskirt: ClothingUniformJumpskirtCaptain
+  innerClothingSkirt: ClothingUniformJumpskirtCaptain
   satchel: ClothingBackpackSatchelCaptainFilled
   duffelbag: ClothingBackpackDuffelCaptainFilled

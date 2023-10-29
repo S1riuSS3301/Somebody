@@ -13,7 +13,7 @@
     underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
   underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
   underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear
-  innerclothingskirt: ClothingUniformJumpskirtColorBlack
+  innerClothingSkirt: ClothingUniformJumpskirtColorBlack
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled
 
@@ -30,6 +30,6 @@
     underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
   underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
   underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear
-  innerclothingskirt: ClothingUniformJumpskirtColorBlack
+  innerClothingSkirt: ClothingUniformJumpskirtColorBlack
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled

@@ -29,6 +29,6 @@
     underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
   underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
   underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear
-  innerclothingskirt: ClothingUniformJumpskirtMedicalDoctor
+  innerClothingSkirt: ClothingUniformJumpskirtMedicalDoctor
   satchel: ClothingBackpackSatchelMedicalFilled
   duffelbag: ClothingBackpackDuffelMedicalFilled

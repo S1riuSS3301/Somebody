@@ -28,7 +28,7 @@
   underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
   underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear
   inhand:
-    right hand: BriefcaseBrownFilled
-  innerclothingskirt: ClothingUniformJumpskirtLawyerBlack
+    - BriefcaseBrownFilled
+  innerClothingSkirt: ClothingUniformJumpskirtLawyerBlack
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled

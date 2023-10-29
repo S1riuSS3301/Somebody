@@ -1,5 +1,5 @@
 using System.Linq;
-using Content.Server.Corvax.Sponsors;
+using Content.Corvax.Interfaces.Server;
 using Content.Server.GameTicking;
 using Content.Server.Hands.Systems;
 using Content.Server.Storage.EntitySystems;
@@ -18,24 +18,28 @@ public sealed class LoadoutSystem : EntitySystem
     [Dependency] private readonly InventorySystem _inventorySystem = default!;
     [Dependency] private readonly HandsSystem _handsSystem = default!;
     [Dependency] private readonly StorageSystem _storageSystem = default!;
-    [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
+    private IServerSponsorsManager? _sponsorsManager;
 
     public override void Initialize()
     {
+        IoCManager.Instance!.TryResolveType(out _sponsorsManager); // Corvax-Sponsors
         SubscribeLocalEvent<PlayerSpawnCompleteEvent>(OnPlayerSpawned);
     }
 
     private void OnPlayerSpawned(PlayerSpawnCompleteEvent ev)
     {
-        if (_sponsorsManager.TryGetInfo(ev.Player.UserId, out var sponsor))
+        if (_sponsorsManager == null)
+            return;
+
+        if (_sponsorsManager.TryGetPrototypes(ev.Player.UserId, out var prototypes))
         {
-            foreach (var loadoutId in sponsor.AllowedMarkings)
+            foreach (var loadoutId in prototypes)
             {
                 // NOTE: Now is easy to not extract method because event give all info we need
                 if (_prototypeManager.TryIndex<LoadoutItemPrototype>(loadoutId, out var loadout))
                 {
                     var isSponsorOnly = loadout.SponsorOnly &&
-                                        !sponsor.AllowedMarkings.Contains(loadoutId);
+                                        !prototypes.Contains(loadoutId);
                     var isWhitelisted = ev.JobId != null &&
                                         loadout.WhitelistJobs != null &&
                                         !loadout.WhitelistJobs.Contains(ev.JobId);
@@ -87,7 +91,7 @@ public sealed class LoadoutSystem : EntitySystem
                         _inventorySystem.TryGetSlotEntity(ev.Mob, BackpackSlotId, out var backEntity) &&
                         _storageSystem.CanInsert(backEntity.Value, slotEntity.Value, out _))
                     {
-                        _storageSystem.CanInsert(backEntity.Value, slotEntity.Value, out _);
+                        _storageSystem.Insert(backEntity.Value, slotEntity.Value, out _, playSound: false);
                     }
                     _inventorySystem.TryEquip(ev.Mob, entity, firstSlotName, true);
                 }

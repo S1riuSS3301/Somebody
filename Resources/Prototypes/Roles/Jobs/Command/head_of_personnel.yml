@@ -49,6 +49,12 @@
   - Cargo
   - Atmospherics
   - Medical
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
 
 - type: startingGear
   id: HoPGear
@@ -59,9 +65,10 @@
     head: ClothingHeadHatHopcap
     id: HoPPDA
     ears: ClothingHeadsetAltCommand
+    belt: BoxFolderClipboard
     underwearb: ClothingUnderwearBottomBoxersHOP # AlphaCentauri-Underwear
   underweart: ClothingUnderwearTopBraHOP # AlphaCentauri-Underwear
   underwearb: ClothingUnderwearBottomPantiesHOP # AlphaCentauri-Underwear
-  innerclothingskirt: ClothingUniformJumpskirtHoP
+  innerClothingSkirt: ClothingUniformJumpskirtHoP
   satchel: ClothingBackpackSatchelHOPFilled
   duffelbag: ClothingBackpackDuffelHOPFilled

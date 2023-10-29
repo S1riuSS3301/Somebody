@@ -23,6 +23,6 @@
     underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
   underweart: ClothingUnderwearTopBraSports # AlphaCentauri-Underwear
   underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear
-  innerclothingskirt: UniformShortsRedWithTop
+  innerClothingSkirt: UniformShortsRedWithTop
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled

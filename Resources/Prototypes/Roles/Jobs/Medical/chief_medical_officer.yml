@@ -29,6 +29,12 @@
   - Maintenance
   - Chemistry
   - ChiefMedicalOfficer
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
 
 - type: startingGear
   id: CMOGear
@@ -43,6 +49,6 @@
     underwearb: ClothingUnderwearBottomBoxersCMO # AlphaCentauri-Underwear
   underweart: ClothingUnderwearTopBraCMO # AlphaCentauri-Underwear
   underwearb: ClothingUnderwearBottomPantiesCMO # AlphaCentauri-Underwear
-  innerclothingskirt: ClothingUniformJumpskirtCMO
+  innerClothingSkirt: ClothingUniformJumpskirtCMO
   satchel: ClothingBackpackSatchelCMOFilled
   duffelbag: ClothingBackpackDuffelCMOFilled
