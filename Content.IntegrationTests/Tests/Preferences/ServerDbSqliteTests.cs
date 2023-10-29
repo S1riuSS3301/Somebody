@@ -40,6 +40,7 @@ namespace Content.IntegrationTests.Tests.Preferences
                 "Charlie Charlieson",
                 "The biggest boy around.",
                 "Human",
+
                 21,
                 Sex.Male,
                 Gender.Epicene,
@@ -59,7 +60,7 @@ namespace Content.IntegrationTests.Tests.Preferences
                     {SharedGameTicker.FallbackOverflowJob, JobPriority.High}
                 },
                 PreferenceUnavailableMode.StayInLobby,
-                new List<string> (),
+                new List<string>(),
                 new List<string>()
             );
         }
