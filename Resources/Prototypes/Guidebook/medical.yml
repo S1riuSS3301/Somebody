@@ -42,3 +42,7 @@
   name: guide-entry-botanicals
   text: "/ServerInfo/Guidebook/Medical/Botanicals.xml"
   filterEnabled: True
+- type: guideEntry
+  id: Virology
+  name: guide-entry-virology
+  text: "/ServerInfo/Guidebook/Medical/Virology.xml"

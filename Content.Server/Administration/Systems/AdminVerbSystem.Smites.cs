@@ -26,10 +26,7 @@ using Content.Shared.Clothing.Components;
 using Content.Shared.Cluwne;
 using Content.Shared.Damage;
 using Content.Shared.Damage.Systems;
-using Content.Server.Disease;
-using Content.Server.Disease.Components;
 using Content.Shared.Database;
-using Content.Shared.Disease;
 using Content.Shared.Electrocution;
 using Content.Shared.Interaction.Components;
 using Content.Shared.Inventory;
@@ -62,7 +59,6 @@ public sealed partial class AdminVerbSystem
     [Dependency] private readonly BloodstreamSystem _bloodstreamSystem = default!;
     [Dependency] private readonly BodySystem _bodySystem = default!;
     [Dependency] private readonly CreamPieSystem _creamPieSystem = default!;
-    [Dependency] private readonly DiseaseSystem _diseaseSystem = default!;
     [Dependency] private readonly ElectrocutionSystem _electrocutionSystem = default!;
     [Dependency] private readonly EntityStorageSystem _entityStorageSystem = default!;
     [Dependency] private readonly ExplosionSystem _explosionSystem = default!;
@@ -193,24 +189,6 @@ public sealed partial class AdminVerbSystem
             Message = Loc.GetString("admin-smite-garbage-can-description")
         };
         args.Verbs.Add(disposalBin);
-
-        if (TryComp<DiseaseCarrierComponent>(args.Target, out var carrier))
-        {
-            Verb lungCancer = new()
-            {
-                Text = "Lung Cancer",
-                Category = VerbCategory.Smite,
-                Icon = new SpriteSpecifier.Rsi(new("/Textures/Mobs/Species/Human/organs.rsi"), "lung-l"),
-                Act = () =>
-                {
-                    _diseaseSystem.TryInfect(carrier, _prototypeManager.Index<DiseasePrototype>("StageIIIALungCancer"),
-                        1.0f, true);
-                },
-                Impact = LogImpact.Extreme,
-                Message = Loc.GetString("admin-smite-lung-cancer-description")
-            };
-            args.Verbs.Add(lungCancer);
-        }
 
         if (TryComp<DamageableComponent>(args.Target, out var damageable) &&
             HasComp<MobStateComponent>(args.Target))
