@@ -1,7 +1,7 @@
 - type: entity
   save: false
   name: Wil Sar Heed
-  parent: BaseMobOrganic
+  parent: BaseMobSpeciesOrganic
   id: BaseMobMentag
   abstract: true
   components:

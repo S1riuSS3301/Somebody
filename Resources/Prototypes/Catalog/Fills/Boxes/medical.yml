@@ -93,10 +93,6 @@
   parent: BoxCardboard
   id: BoxMouthSwab
   components:
-  - type: StorageFill
-    contents:
-      - id: DiseaseSwab
-        amount: 30
   - type: Sprite
     layers:
       - state: box

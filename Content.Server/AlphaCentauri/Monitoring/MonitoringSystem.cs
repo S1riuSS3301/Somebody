@@ -9,6 +9,8 @@ using Content.Server.GameTicking.Events;
 using Content.Server.Mind;
 using Content.Shared.AlphaCentauri.CCCVar;
 using Content.Shared.Roles.Jobs;
+using Robust.Shared.Player;
+using System.Linq;
 
 namespace Content.Server.AlphaCentauri.Monitoring;
 
@@ -55,7 +57,7 @@ public sealed partial class MonitoringSystem : EntitySystem
 
     public void OnPlayerStatusChanged(PlayerSpawnCompleteEvent message)
     {
-        var players = _playerManager.GetAllPlayers();
+        var players = Filter.GetAllPlayers(_playerManager);
         var content = GetMessageContent(players);
         UpdateMessage(content);
     }
@@ -116,19 +118,20 @@ public sealed partial class MonitoringSystem : EntitySystem
     {
         return $"{BaseUrl}/channels/{_discordMonitoringChannelId}/messages";
     }
-    private string GetMessageContent(List<IPlayerSession> players)
+    private string GetMessageContent(IEnumerable<ICommonSession> players)
     {
         string content = string.Empty;
-        players.ForEach(delegate (IPlayerSession session) {
+        foreach (var session in players)
+        {
             string playerName = string.Empty;
             string startingRole = string.Empty;
             if (session.AttachedEntity != null)
                 playerName = EntityManager.GetComponent<MetaDataComponent>(session.AttachedEntity.Value).EntityName;
             if (_minds.TryGetMind(session, out var mindId, out _))
                 startingRole = _jobs.MindTryGetJobName(mindId);
-            if(playerName!=string.Empty)
+            if (playerName != string.Empty)
                 content += playerName + ": " + startingRole + "\n";
-        });
+        }
         return content;
     }
     private MonitoringPayload GetPayload(string content)
