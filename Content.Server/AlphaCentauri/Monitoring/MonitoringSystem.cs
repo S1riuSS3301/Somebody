@@ -139,7 +139,7 @@ public sealed partial class MonitoringSystem : EntitySystem
             Type = "rich",
             Title = "Манифест экипажа:",
             Description = content,
-            Color = "16580705",
+            Color = "196511",
             Footer = new MonitoringPayloadEmbedFooter
             {
                 Text = "Раунд: " + RoundId.ToString()
