@@ -1151,3 +1151,12 @@
   components:
   - type: Sprite
     state: originmap
+
+- type: entity
+  parent: PosterBase
+  id: PosterLegitERPAllowed
+  name: "ERP Allowed"
+  description: "This poster reminds the crew that Eroticism and Pornography are not prohibited (and even welcomed) on Alpha Centauri stations."
+  components:
+  - type: Sprite
+    state: poster_erp_allowed
