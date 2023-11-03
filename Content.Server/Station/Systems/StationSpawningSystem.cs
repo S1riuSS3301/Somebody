@@ -1,4 +1,4 @@
-﻿using Content.Server.Access.Systems;
+using Content.Server.Access.Systems;
 using Content.Server.DetailExaminable;
 using Content.Server.Humanoid;
 using Content.Server.IdentityManagement;
@@ -150,7 +150,18 @@ public sealed class StationSpawningSystem : SharedStationSpawningSystem
             _metaSystem.SetEntityName(entity.Value, profile.Name);
             if (profile.FlavorText != "" && _configurationManager.GetCVar(CCVars.FlavorText))
             {
-                AddComp<DetailExaminableComponent>(entity.Value).Content = profile.FlavorText;
+                var _DetailExamineComp = AddComp<DetailExaminableComponent>(entity.Value);
+                _DetailExamineComp.Content = profile.FlavorText;
+                _DetailExamineComp.ERPStatus = profile.ERPStatus;
+                /*AddComp<DetailExaminableComponent>(entity.Value) = {
+                    Content = profile.FlavorText,
+                    ERPStatus = profile.ERPStatus
+                };*/
+                // AlphaCentauri-ERPStatus-Start
+                /*var _DetailExamineComp = EntityManager.AddComponent<DetailExaminableComponent>(entity);
+                _DetailExamineComp.Content = profile.FlavorText;
+                _DetailExamineComp.ERPStatus = profile.ERPStatus;*/
+                // AlphaCentauri-ERPStatus-End
             }
         }
 
