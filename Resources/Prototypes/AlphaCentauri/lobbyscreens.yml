@@ -1,0 +1,15 @@
+﻿- type: lobbyBackground
+  id: DeepInSpiders
+  background: /Textures/AlphaCentauri/LobbyScreens/deep-in-spiders.png
+
+- type: lobbyBackground
+  id: NudeHopla
+  background: /Textures/AlphaCentauri/LobbyScreens/nude-hopla.png
+
+- type: lobbyBackground
+  id: Nukeart
+  background: /Textures/AlphaCentauri/LobbyScreens/nukeart.png
+
+- type: lobbyBackground
+  id: Room2131A
+  background: /Textures/AlphaCentauri/LobbyScreens/room-2131A.png
