@@ -35,6 +35,8 @@
     neck: ClothingNeckLawyerbadge
     underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
     underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
+  inhand:
+    - BriefcaseIAAFilled
   innerClothingSkirt: ClothingUniformJumpskirtLawyerBlack
   satchel: ClothingBackpackSatchelIAAFilled
   duffelbag: ClothingBackpackDuffelIAAFilled
