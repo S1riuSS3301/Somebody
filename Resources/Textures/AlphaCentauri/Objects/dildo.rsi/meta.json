@@ -1,0 +1,116 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "TheVelocipony",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+          "name": "human"
+        },
+        {
+          "name": "human-blue"
+        },
+        {
+          "name": "human-green"
+        },
+        {
+          "name": "human-pink"
+        },
+        {
+          "name": "human-purple"
+        },
+        {
+          "name": "lizard-doubled"
+        },
+        {
+          "name": "lizard-doubled-cyan"
+        },
+        {
+          "name": "lizard-doubled-green"
+        },
+        {
+          "name": "lizard-doubled-magenta"
+        },
+        {
+          "name": "lizard-doubled-red"
+        },
+        {
+          "name": "moth"
+        },
+        {
+          "name": "moth-blue"
+        },
+        {
+          "name": "moth-magenta"
+        },
+        {
+          "name": "moth-purple"
+        },
+        {
+          "name": "moth-yellow"
+        },
+        {
+          "name": "shark"
+        },
+        {
+          "name": "shark-blue"
+        },
+        {
+          "name": "shark-green"
+        },
+        {
+          "name": "shark-orange"
+        },
+        {
+          "name": "shark-red"
+        },
+        {
+          "name": "slime"
+        },
+        {
+          "name": "slime-cyan"
+        },
+        {
+          "name": "slime-green"
+        },
+        {
+          "name": "slime-magenta"
+        },
+        {
+          "name": "slime-red"
+        },
+        {
+          "name": "spider"
+        },
+        {
+          "name": "spider-blue"
+        },
+        {
+          "name": "spider-cyan"
+        },
+        {
+          "name": "spider-green"
+        },
+        {
+          "name": "spider-purple"
+        },
+        {
+          "name": "wolf"
+        },
+        {
+          "name": "wolf-blue"
+        },
+        {
+          "name": "wolf-green"
+        },
+        {
+          "name": "wolf-purple"
+        },
+        {
+          "name": "wolf-red"
+        }
+    ]
+}

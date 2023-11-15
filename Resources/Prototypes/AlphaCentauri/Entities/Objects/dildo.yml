@@ -1,0 +1,280 @@
+- type: entity
+  parent: BaseItem
+  name: "Человеческий дилдо"
+  id: DildoItemHumanDefault
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: human
+- type: entity
+  parent: BaseItem
+  name: "Человеческий дилдо (синий)"
+  id: DildoItemHumanBlue
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: human-blue
+- type: entity
+  parent: BaseItem
+  name: "Человеческий дилдо (зелёный)"
+  id: DildoItemHumanGreen
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: human-green
+- type: entity
+  parent: BaseItem
+  name: "Человеческий дилдо (розовый)"
+  id: DildoItemHumanPink
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: human-pink
+- type: entity
+  parent: BaseItem
+  name: "Человеческий дилдо (фиолетовый)"
+  id: DildoItemHumanPurple
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: human-purple
+- type: entity
+  parent: BaseItem
+  name: "Двойной Унатхский дилдо"
+  id: DildoItemLizardDoubledDefault
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: lizard-doubled
+- type: entity
+  parent: BaseItem
+  name: "Двойной Унатхский дилдо (сине-зелёный)"
+  id: DildoItemLizardDoubledCyan
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: lizard-doubled-cyan
+- type: entity
+  parent: BaseItem
+  name: "Двойной Унатхский дилдо (зелёный)"
+  id: DildoItemLizardDoubledGreen
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: lizard-doubled-green
+- type: entity
+  parent: BaseItem
+  name: "Двойной Унатхский дилдо (маджентовый)"
+  id: DildoItemLizardDoubledMagenta
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: lizard-doubled-magenta
+- type: entity
+  parent: BaseItem
+  name: "Двойной Унатхский дилдо (красный)"
+  id: DildoItemLizardDoubledRed
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: lizard-doubled-red
+- type: entity
+  parent: BaseItem
+  name: "Молевый дилдо"
+  id: DildoItemMothDefault
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: moth
+- type: entity
+  parent: BaseItem
+  name: "Молевый дилдо (синий)"
+  id: DildoItemMothBlue
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: moth-blue
+- type: entity
+  parent: BaseItem
+  name: "Молевый дилдо (маджентовый)"
+  id: DildoItemMothMagenta
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: moth-magenta
+- type: entity
+  parent: BaseItem
+  name: "Молевый дилдо (фиолетовый)"
+  id: DildoItemMothPurple
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: moth-purple
+- type: entity
+  parent: BaseItem
+  name: "Молевый дилдо (жёлтый)"
+  id: DildoItemMothYellow
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: moth-yellow
+- type: entity
+  parent: BaseItem
+  name: "Акулий дилдо"
+  id: DildoItemSharkDefault
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: shark
+- type: entity
+  parent: BaseItem
+  name: "Акулий дилдо (синий)"
+  id: DildoItemSharkBlue
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: shark-blue
+- type: entity
+  parent: BaseItem
+  name: "Акулий дилдо (зелёный)"
+  id: DildoItemSharkGreen
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: shark-green
+- type: entity
+  parent: BaseItem
+  name: "Акулий дилдо (оранжевый)"
+  id: DildoItemSharkOrange
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: shark-orange
+- type: entity
+  parent: BaseItem
+  name: "Акулий дилдо (красный)"
+  id: DildoItemSharkRed
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: shark-red
+- type: entity
+  parent: BaseItem
+  name: "Слаймовый дилдо"
+  id: DildoItemSlimeDefault
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: slime
+- type: entity
+  parent: BaseItem
+  name: "Слаймовый дилдо (сине-зелёный)"
+  id: DildoItemSlimeCyan
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: slime-cyan
+- type: entity
+  parent: BaseItem
+  name: "Слаймовый дилдо (зелёный)"
+  id: DildoItemSlimeGreen
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: slime-green
+- type: entity
+  parent: BaseItem
+  name: "Слаймовый дилдо (маджентовый)"
+  id: DildoItemSlimeMagenta
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: slime-magenta
+- type: entity
+  parent: BaseItem
+  name: "Слаймовый дилдо (красный)"
+  id: DildoItemSlimeRed
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: slime-red
+- type: entity
+  parent: BaseItem
+  name: "Паучий дилдо"
+  id: DildoItemSpiderDefault
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: spider
+- type: entity
+  parent: BaseItem
+  name: "Паучий дилдо (синий)"
+  id: DildoItemSpiderBlue
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: spider-blue
+- type: entity
+  parent: BaseItem
+  name: "Паучий дилдо (сине-зелёный)"
+  id: DildoItemSpiderCyan
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: spider-cyan
+- type: entity
+  parent: BaseItem
+  name: "Паучий дилдо (зелёный)"
+  id: DildoItemSpiderGreen
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: spider-green
+- type: entity
+  parent: BaseItem
+  name: "Паучий дилдо (фиолетовый)"
+  id: DildoItemSpiderPurple
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: spider-purple
+- type: entity
+  parent: BaseItem
+  name: "Волчий дилдо"
+  id: DildoItemWolfDefault
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: wolf
+- type: entity
+  parent: BaseItem
+  name: "Волчий дилдо (синий)"
+  id: DildoItemWolfBlue
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: wolf-blue
+- type: entity
+  parent: BaseItem
+  name: "Волчий дилдо (зелёный)"
+  id: DildoItemWolfGreen
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: wolf-green
+- type: entity
+  parent: BaseItem
+  name: "Волчий дилдо (фиолетовый)"
+  id: DildoItemWolfPurple
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: wolf-purple
+- type: entity
+  parent: BaseItem
+  name: "Волчий дилдо (красный)"
+  id: DildoItemWolfRed
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/dildo.rsi
+    state: wolf-red
