@@ -1,6 +1,6 @@
 - type: entity
   parent: BaseItem
-  name: "Человеческий дилдо"
+  name: "Фаллоимитатор \"Человек\""
   id: DildoItemHumanDefault
   components:
   - type: Sprite
@@ -8,7 +8,7 @@
     state: human
 - type: entity
   parent: BaseItem
-  name: "Человеческий дилдо (синий)"
+  name: "Фаллоимитатор \"Человек\" (синий)"
   id: DildoItemHumanBlue
   components:
   - type: Sprite
@@ -16,7 +16,7 @@
     state: human-blue
 - type: entity
   parent: BaseItem
-  name: "Человеческий дилдо (зелёный)"
+  name: "Фаллоимитатор \"Человек\" (зелёный)"
   id: DildoItemHumanGreen
   components:
   - type: Sprite
@@ -24,7 +24,7 @@
     state: human-green
 - type: entity
   parent: BaseItem
-  name: "Человеческий дилдо (розовый)"
+  name: "Фаллоимитатор \"Человек\" (розовый)"
   id: DildoItemHumanPink
   components:
   - type: Sprite
@@ -32,7 +32,7 @@
     state: human-pink
 - type: entity
   parent: BaseItem
-  name: "Человеческий дилдо (фиолетовый)"
+  name: "Фаллоимитатор \"Человек\" (фиолетовый)"
   id: DildoItemHumanPurple
   components:
   - type: Sprite
@@ -40,7 +40,7 @@
     state: human-purple
 - type: entity
   parent: BaseItem
-  name: "Двойной Унатхский дилдо"
+  name: "Двойной фаллоимитатор \"Унатх\""
   id: DildoItemLizardDoubledDefault
   components:
   - type: Sprite
@@ -48,7 +48,7 @@
     state: lizard-doubled
 - type: entity
   parent: BaseItem
-  name: "Двойной Унатхский дилдо (сине-зелёный)"
+  name: "Двойной фаллоимитатор \"Унатх\" (сине-зелёный)"
   id: DildoItemLizardDoubledCyan
   components:
   - type: Sprite
@@ -56,7 +56,7 @@
     state: lizard-doubled-cyan
 - type: entity
   parent: BaseItem
-  name: "Двойной Унатхский дилдо (зелёный)"
+  name: "Двойной фаллоимитатор \"Унатх\" (зелёный)"
   id: DildoItemLizardDoubledGreen
   components:
   - type: Sprite
@@ -64,7 +64,7 @@
     state: lizard-doubled-green
 - type: entity
   parent: BaseItem
-  name: "Двойной Унатхский дилдо (маджентовый)"
+  name: "Двойной фаллоимитатор \"Унатх\" (маджентовый)"
   id: DildoItemLizardDoubledMagenta
   components:
   - type: Sprite
@@ -72,7 +72,7 @@
     state: lizard-doubled-magenta
 - type: entity
   parent: BaseItem
-  name: "Двойной Унатхский дилдо (красный)"
+  name: "Двойной фаллоимитатор \"Унатх\" (красный)"
   id: DildoItemLizardDoubledRed
   components:
   - type: Sprite
@@ -80,7 +80,7 @@
     state: lizard-doubled-red
 - type: entity
   parent: BaseItem
-  name: "Молевый дилдо"
+  name: "Фаллоимитатор \"Ниан\""
   id: DildoItemMothDefault
   components:
   - type: Sprite
@@ -88,7 +88,7 @@
     state: moth
 - type: entity
   parent: BaseItem
-  name: "Молевый дилдо (синий)"
+  name: "Фаллоимитатор \"Ниан\" (синий)"
   id: DildoItemMothBlue
   components:
   - type: Sprite
@@ -96,7 +96,7 @@
     state: moth-blue
 - type: entity
   parent: BaseItem
-  name: "Молевый дилдо (маджентовый)"
+  name: "Фаллоимитатор \"Ниан\" (маджентовый)"
   id: DildoItemMothMagenta
   components:
   - type: Sprite
@@ -104,7 +104,7 @@
     state: moth-magenta
 - type: entity
   parent: BaseItem
-  name: "Молевый дилдо (фиолетовый)"
+  name: "Фаллоимитатор \"Ниан\" (фиолетовый)"
   id: DildoItemMothPurple
   components:
   - type: Sprite
@@ -112,7 +112,7 @@
     state: moth-purple
 - type: entity
   parent: BaseItem
-  name: "Молевый дилдо (жёлтый)"
+  name: "Фаллоимитатор \"Ниан\" (жёлтый)"
   id: DildoItemMothYellow
   components:
   - type: Sprite
@@ -120,7 +120,7 @@
     state: moth-yellow
 - type: entity
   parent: BaseItem
-  name: "Акулий дилдо"
+  name: "Фаллоимитатор \"Ментаг\""
   id: DildoItemSharkDefault
   components:
   - type: Sprite
@@ -128,7 +128,7 @@
     state: shark
 - type: entity
   parent: BaseItem
-  name: "Акулий дилдо (синий)"
+  name: "Фаллоимитатор \"Ментаг\" (синий)"
   id: DildoItemSharkBlue
   components:
   - type: Sprite
@@ -136,7 +136,7 @@
     state: shark-blue
 - type: entity
   parent: BaseItem
-  name: "Акулий дилдо (зелёный)"
+  name: "Фаллоимитатор \"Ментаг\" (зелёный)"
   id: DildoItemSharkGreen
   components:
   - type: Sprite
@@ -144,7 +144,7 @@
     state: shark-green
 - type: entity
   parent: BaseItem
-  name: "Акулий дилдо (оранжевый)"
+  name: "Фаллоимитатор \"Ментаг\" (оранжевый)"
   id: DildoItemSharkOrange
   components:
   - type: Sprite
@@ -152,7 +152,7 @@
     state: shark-orange
 - type: entity
   parent: BaseItem
-  name: "Акулий дилдо (красный)"
+  name: "Фаллоимитатор \"Ментаг\" (красный)"
   id: DildoItemSharkRed
   components:
   - type: Sprite
@@ -160,7 +160,7 @@
     state: shark-red
 - type: entity
   parent: BaseItem
-  name: "Слаймовый дилдо"
+  name: "Фаллоимитатор \"Слайм\""
   id: DildoItemSlimeDefault
   components:
   - type: Sprite
@@ -168,7 +168,7 @@
     state: slime
 - type: entity
   parent: BaseItem
-  name: "Слаймовый дилдо (сине-зелёный)"
+  name: "Фаллоимитатор \"Слайм\" (сине-зелёный)"
   id: DildoItemSlimeCyan
   components:
   - type: Sprite
@@ -176,7 +176,7 @@
     state: slime-cyan
 - type: entity
   parent: BaseItem
-  name: "Слаймовый дилдо (зелёный)"
+  name: "Фаллоимитатор \"Слайм\" (зелёный)"
   id: DildoItemSlimeGreen
   components:
   - type: Sprite
@@ -184,7 +184,7 @@
     state: slime-green
 - type: entity
   parent: BaseItem
-  name: "Слаймовый дилдо (маджентовый)"
+  name: "Фаллоимитатор \"Слайм\" (маджентовый)"
   id: DildoItemSlimeMagenta
   components:
   - type: Sprite
@@ -192,7 +192,7 @@
     state: slime-magenta
 - type: entity
   parent: BaseItem
-  name: "Слаймовый дилдо (красный)"
+  name: "Фаллоимитатор \"Слайм\" (красный)"
   id: DildoItemSlimeRed
   components:
   - type: Sprite
@@ -200,7 +200,7 @@
     state: slime-red
 - type: entity
   parent: BaseItem
-  name: "Паучий дилдо"
+  name: "Фаллоимитатор \"Арахнид\""
   id: DildoItemSpiderDefault
   components:
   - type: Sprite
@@ -208,7 +208,7 @@
     state: spider
 - type: entity
   parent: BaseItem
-  name: "Паучий дилдо (синий)"
+  name: "Фаллоимитатор \"Арахнид\" (синий)"
   id: DildoItemSpiderBlue
   components:
   - type: Sprite
@@ -216,7 +216,7 @@
     state: spider-blue
 - type: entity
   parent: BaseItem
-  name: "Паучий дилдо (сине-зелёный)"
+  name: "Фаллоимитатор \"Арахнид\" (сине-зелёный)"
   id: DildoItemSpiderCyan
   components:
   - type: Sprite
@@ -224,7 +224,7 @@
     state: spider-cyan
 - type: entity
   parent: BaseItem
-  name: "Паучий дилдо (зелёный)"
+  name: "Фаллоимитатор \"Арахнид\" (зелёный)"
   id: DildoItemSpiderGreen
   components:
   - type: Sprite
@@ -232,7 +232,7 @@
     state: spider-green
 - type: entity
   parent: BaseItem
-  name: "Паучий дилдо (фиолетовый)"
+  name: "Фаллоимитатор \"Арахнид\" (фиолетовый)"
   id: DildoItemSpiderPurple
   components:
   - type: Sprite
@@ -240,7 +240,7 @@
     state: spider-purple
 - type: entity
   parent: BaseItem
-  name: "Волчий дилдо"
+  name: "Фаллоимитатор \"Волк\""
   id: DildoItemWolfDefault
   components:
   - type: Sprite
@@ -248,7 +248,7 @@
     state: wolf
 - type: entity
   parent: BaseItem
-  name: "Волчий дилдо (синий)"
+  name: "Фаллоимитатор \"Волк\" (синий)"
   id: DildoItemWolfBlue
   components:
   - type: Sprite
@@ -256,7 +256,7 @@
     state: wolf-blue
 - type: entity
   parent: BaseItem
-  name: "Волчий дилдо (зелёный)"
+  name: "Фаллоимитатор \"Волк\" (зелёный)"
   id: DildoItemWolfGreen
   components:
   - type: Sprite
@@ -264,7 +264,7 @@
     state: wolf-green
 - type: entity
   parent: BaseItem
-  name: "Волчий дилдо (фиолетовый)"
+  name: "Фаллоимитатор \"Волк\" (фиолетовый)"
   id: DildoItemWolfPurple
   components:
   - type: Sprite
@@ -272,7 +272,7 @@
     state: wolf-purple
 - type: entity
   parent: BaseItem
-  name: "Волчий дилдо (красный)"
+  name: "Фаллоимитатор \"Волк\" (красный)"
   id: DildoItemWolfRed
   components:
   - type: Sprite
