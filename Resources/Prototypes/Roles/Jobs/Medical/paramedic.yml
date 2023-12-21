@@ -15,7 +15,6 @@
   access:
   - Medical
   - Maintenance
-  - External
   extendedAccess:
   - Chemistry
 
@@ -23,8 +22,8 @@
   id: ParamedicGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitParamedic
-    back: ClothingBackpackMedicalFilled
-    shoes: ClothingShoesColorWhite
+    back: ClothingBackpackParamedicFilled
+    shoes: ClothingShoesColorBlue
     id: ParamedicPDA
     ears: ClothingHeadsetMedical
     belt: ClothingBeltParamedicFilled
@@ -32,5 +31,5 @@
     underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
 
   innerClothingSkirt: ClothingUniformJumpskirtParamedic
-  satchel: ClothingBackpackSatchelMedicalFilled
-  duffelbag: ClothingBackpackDuffelMedicalFilled
+  satchel: ClothingBackpackSatchelParamedicFilled
+  duffelbag: ClothingBackpackDuffelParamedicFilled
