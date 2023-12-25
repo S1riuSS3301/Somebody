@@ -47,7 +47,7 @@ public class ActionButtonContainer : GridContainer
                 button.KeyBind = boundKey;
 
                 var binding = _input.GetKeyBinding(boundKey);
-                button.Label.Text = binding.GetKeyString();
+                button.Label.Text = binding.GetKeyString().Replace("Num","");//Remove "Num" from label
             }
 
             return button;
