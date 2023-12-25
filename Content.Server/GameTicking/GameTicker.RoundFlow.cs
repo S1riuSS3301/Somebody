@@ -412,15 +412,6 @@ namespace Content.Server.GameTicking
                 var payload = new WebhookPayload { Content = content };
 
                 await _discord.CreateMessage(_webhookIdentifier.Value, payload);
-
-                if (DiscordRoundEndRole == null)
-                    return;
-
-                content = Loc.GetString("discord-round-notifications-end-ping", ("roleId", DiscordRoundEndRole));
-                payload = new WebhookPayload { Content = content };
-                payload.AllowedMentions.AllowRoleMentions();
-
-                await _discord.CreateMessage(_webhookIdentifier.Value, payload);
             }
             catch (Exception e)
             {
