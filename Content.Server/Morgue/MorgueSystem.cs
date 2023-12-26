@@ -50,6 +50,10 @@ public sealed class MorgueSystem : EntitySystem
     {
         if (!Resolve(uid, ref morgue, ref storage, ref app))
             return;
+        if (storage.Contents == null)
+            return;
+        if (storage.Contents.ContainedEntities == null)
+            return;
 
         if (storage.Contents.ContainedEntities.Count == 0)
         {
