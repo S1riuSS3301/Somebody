@@ -149,4 +149,5 @@
       - PosterLegitPeriodicTable
       - PosterLegitRenault
       - PosterLegitNTTGC
+      - PosterLegitERPAllowed
     chance: 1
