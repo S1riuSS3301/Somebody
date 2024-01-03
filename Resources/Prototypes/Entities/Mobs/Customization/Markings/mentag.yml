@@ -15,3 +15,122 @@
   sprites:
   - sprite: Mobs/Customization/mentag_parts.rsi
     state: spiked_tail
+- type: marking
+  id: MentagHairDefault
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [Mentag]
+  sprites:
+  - sprite: Mobs/Customization/mentag_parts.rsi
+    state: def_hair
+- type: marking
+  id: MentagHairIroquois
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [Mentag]
+  sprites:
+  - sprite: Mobs/Customization/mentag_parts.rsi
+    state: iroquois_hair
+- type: marking
+  id: MentagHairSloppy
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [Mentag]
+  sprites:
+  - sprite: Mobs/Customization/mentag_parts.rsi
+    state: sloppy_hair
+
+- type: marking
+  id: TattooMentagLeftLeg
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Mentag]
+  coloring:
+    default:
+      type:
+        !type:TattooColoring
+      fallbackColor: "#666666"
+  sprites:
+  - sprite: Mobs/Customization/mentag_parts.rsi
+    state: l_foot_stripes
+
+- type: marking
+  id: TattooMentagRightLeg
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Mentag]
+  coloring:
+    default:
+      type:
+        !type:TattooColoring
+      fallbackColor: "#666666"
+  sprites:
+  - sprite: Mobs/Customization/mentag_parts.rsi
+    state: r_foot_stripes
+
+- type: marking
+  id: TattooMentagLeftArm
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Mentag]
+  coloring:
+    default:
+      type:
+        !type:TattooColoring
+      fallbackColor: "#666666"
+  sprites:
+  - sprite: Mobs/Customization/mentag_parts.rsi
+    state: l_arm_stripes
+
+- type: marking
+  id: TattooMentagRightArm
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Mentag]
+  coloring:
+    default:
+      type:
+        !type:TattooColoring
+      fallbackColor: "#666666"
+  sprites:
+  - sprite: Mobs/Customization/mentag_parts.rsi
+    state: r_arm_stripes
+
+- type: marking
+  id: TattooMentagChest
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Mentag]
+  coloring:
+    default:
+      type:
+        !type:TattooColoring
+      fallbackColor: "#666666"
+  sprites:
+  - sprite: Mobs/Customization/mentag_parts.rsi
+    state: f_body_stripes
+
+- type: marking
+  id: MentagEarsDefault
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Mentag]
+  sprites:
+  - sprite: Mobs/Customization/mentag_parts.rsi
+    state: def_ears
+- type: marking
+  id: MentagEarsCut
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Mentag]
+  sprites:
+  - sprite: Mobs/Customization/mentag_parts.rsi
+    state: cut_ears
+- type: marking
+  id: MentagEarsSharp
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Mentag]
+  sprites:
+  - sprite: Mobs/Customization/mentag_parts.rsi
+    state: sharp_ears

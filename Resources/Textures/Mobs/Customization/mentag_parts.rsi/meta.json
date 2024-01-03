@@ -22,6 +22,54 @@
     {
       "name": "double_dorsal",
       "directions": 4
+    },
+    {
+      "name": "def_hair",
+      "directions": 4
+    },
+    {
+      "name": "iroquois_hair",
+      "directions": 4
+    },
+    {
+      "name": "sloppy_hair",
+      "directions": 4
+    },
+    {
+      "name": "def_ears",
+      "directions": 4
+    },
+    {
+      "name": "cut_ears",
+      "directions": 4
+    },
+    {
+      "name": "sharp_ears",
+      "directions": 4
+    },
+    {
+      "name": "f_body_stripes",
+      "directions": 4
+    },
+    {
+      "name": "m_body_stripes",
+      "directions": 4
+    },
+    {
+      "name": "l_arm_stripes",
+      "directions": 4
+    },
+    {
+      "name": "r_arm_stripes",
+      "directions": 4
+    },
+    {
+      "name": "l_foot_stripes",
+      "directions": 4
+    },
+    {
+      "name": "r_foot_stripes",
+      "directions": 4
     }
   ]
 }
