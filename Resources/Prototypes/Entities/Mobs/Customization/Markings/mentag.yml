@@ -134,3 +134,19 @@
   sprites:
   - sprite: Mobs/Customization/mentag_parts.rsi
     state: sharp_ears
+- type: marking
+  id: MentagDorsalDefault
+  bodyPart: Back
+  markingCategory: Back
+  speciesRestriction: [Mentag]
+  sprites:
+  - sprite: Mobs/Customization/mentag_parts.rsi
+    state: dorsal
+- type: marking
+  id: MentagDorsalDouble
+  bodyPart: Back
+  markingCategory: Back
+  speciesRestriction: [Mentag]
+  sprites:
+  - sprite: Mobs/Customization/mentag_parts.rsi
+    state: double_dorsal
