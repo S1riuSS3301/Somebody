@@ -13,10 +13,10 @@
     torso:
       part: TorsoMentag
       organs:
-        heart: OrganAnimalHeart
+        heart: OrganHumanHeart
         lungs: OrganHumanLungs
-        stomach: OrganMentagStomach
-        liver: OrganAnimalLiver
+        stomach: OrganHumanStomach
+        liver: OrganHumanLiver
         kidneys: OrganHumanKidneys
       connections:
       - left arm
