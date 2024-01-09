@@ -1,0 +1,21 @@
+- type: entity
+  name: Mentag sashimi
+  parent: FoodMealBase
+  id: FoodMealSashimiMentag
+  description: When you eat this you remember your friend. Why is it for?.. Doesn't matter. It's delicious.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - fishy
+  - type: Sprite
+    state: sashimi
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 18
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 6
+  - type: Tag
+    tags:
+    - Meat

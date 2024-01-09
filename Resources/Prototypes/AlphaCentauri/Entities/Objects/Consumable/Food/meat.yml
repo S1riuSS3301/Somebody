@@ -1,0 +1,23 @@
+- type: entity
+  name: raw mentag meat
+  parent: FoodMeatBase
+  id: FoodMeatMentag
+  description: Heavy, fibrous piece of shark meat. Looks appetizing. Think before you eat your colleague...
+  components:
+  - type: FlavorProfile
+    flavors:
+      - fishy
+  - type: Tag
+    tags:
+    - Raw
+    - Meat
+  - type: Sprite
+    state: fish
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: UncookedAnimalProteins
+          Quantity: 9
+        - ReagentId: Fat
+          Quantity: 9

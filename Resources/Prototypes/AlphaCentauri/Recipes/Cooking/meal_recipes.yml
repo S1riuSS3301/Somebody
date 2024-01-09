@@ -1,0 +1,9 @@
+- type: microwaveMealRecipe
+  id: RecipeMentagSashimi
+  name: sashimi recipe from mentag
+  result: FoodMealSashimiMentag
+  time: 15
+  reagents:
+    TableSalt: 1
+  solids:
+    FoodMeatMentag: 2

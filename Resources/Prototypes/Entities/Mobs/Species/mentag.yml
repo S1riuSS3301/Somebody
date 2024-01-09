@@ -18,7 +18,7 @@
   - type: Butcherable
     butcheringType: Spike
     spawned:
-    - id: FoodMeatLizard
+    - id: FoodMeatMentag
       amount: 5
   - type: MentagAccent
   - type: Speech
