@@ -256,7 +256,7 @@ namespace Content.Server.Physics.Controllers
         private void HandleShuttleMovement(float frameTime)
         {
             var newPilots = new Dictionary<EntityUid, (ShuttleComponent Shuttle, List<(EntityUid PilotUid, PilotComponent Pilot, InputMoverComponent Mover, TransformComponent ConsoleXform)>)>();
-
+ 
             // We just mark off their movement and the shuttle itself does its own movement
             var activePilotQuery = EntityQueryEnumerator<PilotComponent, InputMoverComponent>();
             var shuttleQuery = GetEntityQuery<ShuttleComponent>();
@@ -506,7 +506,7 @@ namespace Content.Server.Physics.Controllers
                     var maxWishVelocity = ObtainMaxVel(totalForce, shuttle);
                     var properAccel = (maxWishVelocity - localVel) / forceMul;
 
-                    var finalForce = Vector2.Dot(totalForce, properAccel.Normalized()) * properAccel.Normalized();
+                    var finalForce = Vector2Dot(totalForce, properAccel.Normalized()) * properAccel.Normalized();
 
                     if (localVel.Length() >= maxVelocity.Length() && Vector2.Dot(totalForce, localVel) > 0f)
                         finalForce = Vector2.Zero; // burn would be faster if used as such
@@ -514,7 +514,7 @@ namespace Content.Server.Physics.Controllers
                     if (finalForce.Length() > properAccel.Length())
                         finalForce = properAccel; // don't overshoot
 
-                    //Logger.Info($"shuttle: maxVelocity {maxVelocity} totalForce {totalForce} finalForce {finalForce} forceMul {forceMul} properAccel {properAccel}");
+                    //Log.Info($"shuttle: maxVelocity {maxVelocity} totalForce {totalForce} finalForce {finalForce} forceMul {forceMul} properAccel {properAccel}");
 
                     finalForce = shuttleNorthAngle.RotateVec(finalForce);
 
@@ -549,6 +549,12 @@ namespace Content.Server.Physics.Controllers
                     }
                 }
             }
+        }
+        // Copied from "System.Numerics.Vector2.Dot", because it's working unstable on some systems.
+        public float Vector2Dot(Vector2 value1, Vector2 value2)
+        {
+            return (value1.X * value2.X)
+                 + (value1.Y * value2.Y);
         }
 
         private bool CanPilot(EntityUid shuttleUid)
