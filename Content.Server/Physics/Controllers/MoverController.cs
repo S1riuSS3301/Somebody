@@ -552,12 +552,6 @@ namespace Content.Server.Physics.Controllers
                 }
             }
         }
-        // Copied from "System.Numerics.Vector2.Dot", because it's working unstable on some systems.
-        public float Vector2Dot(Vector2 value1, Vector2 value2)
-        {
-            return (value1.X * value2.X)
-                 + (value1.Y * value2.Y);
-        }
 
         // .NET 8 seem to miscompile usage of Vector2.Dot above. This manual outline fixes it pending an upstream fix.
         // See PR #24008
