@@ -1,0 +1,6 @@
+- type: typingIndicator
+  id: mentag
+  spritePath: /Textures/AlphaCentauri/Effects/bubbles.rsi
+  typingState: bubbles
+  idleState: bubbles
+  offset: 0.2, 0.5

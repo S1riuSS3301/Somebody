@@ -21,6 +21,8 @@
     - id: FoodMeatMentag
       amount: 5
   - type: MentagAccent
+  - type: TypingIndicator
+    proto: mentag
   - type: Speech
     speechSounds: Lizard
   - type: Vocal

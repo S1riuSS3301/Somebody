@@ -20,6 +20,8 @@
     - type: Eye
     - type: CameraRecoil
     - type: Examiner
+    - type: TypingIndicator
+      proto: mentag
     - type: CanHostGuardian
     - type: NpcFactionMember
       factions:
