@@ -17,6 +17,7 @@
       - id: RubberStampQm
       - id: ClothingHeadsetAltCargo
       - id: BoxEncryptionKeyCargo
+      - id: PrinterDocFlatpack # Corvax-Printer
       # AlphaCentauri-Underwear-Start
       - id: ClothingUnderwearBottomBoxersQM
       - id: ClothingUnderwearBottomPantiesQM
@@ -113,6 +114,7 @@
         prob: 0.5
       - id: ClothingOuterCoatHOP # Corvax-Resprite
       - id: AccessConfigurator
+      - id: PrinterDocFlatpack # Corvax-Printer
       # AlphaCentauri-Underwear-Start
       - id: ClothingUnderwearBottomBoxersHOP
       - id: ClothingUnderwearBottomPantiesHOP
@@ -193,7 +195,6 @@
       - id: ClothingHeadHatBeretCmo
       - id: ClothingOuterHardsuitMedical
       - id: Hypospray
-      - id: HandheldCrewMonitor
       - id: DoorRemoteMedical
       - id: RubberStampCMO
       - id: MedicalTechFabCircuitboard
@@ -218,7 +219,6 @@
       - id: ClothingBackpackDuffelSurgeryFilled
       - id: ClothingMaskSterile
       - id: Hypospray
-      - id: HandheldCrewMonitor
       - id: DoorRemoteMedical
       - id: RubberStampCMO
       - id: MedicalTechFabCircuitboard
@@ -246,6 +246,7 @@
       - id: ClothingBeltUtilityFilled
       - id: RubberStampRd
       - id: BoxEncryptionKeyScience
+      - id: EncryptionKeyBinary
       - id: BoxEncryptionKeyRobo
       # AlphaCentauri-Underwear-Start
       - id: ClothingUnderwearBottomBoxersRD
@@ -269,6 +270,7 @@
       - id: ClothingBeltUtilityFilled
       - id: RubberStampRd
       - id: BoxEncryptionKeyScience
+      - id: EncryptionKeyBinary
       - id: BoxEncryptionKeyRobo
       # AlphaCentauri-Underwear-Start
       - id: ClothingUnderwearBottomBoxersRD
