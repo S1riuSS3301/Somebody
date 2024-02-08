@@ -1,0 +1,29 @@
+- type: entity
+  id: OrganMentagStomach
+  parent: BaseHumanOrgan
+  name: stomach
+  description: "Gross. This is hard to stomach."
+  components:
+  - type: Sprite
+    state: stomach
+  - type: SolutionContainerManager
+    solutions:
+      stomach:
+        maxVol: 50
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: UncookedAnimalProteins
+          Quantity: 5
+  - type: Stomach
+    specialDigestible:
+      tags:
+      - Fruit
+      - Meat
+  - type: Metabolizer
+    # mm yummy
+    maxReagents: 3
+    metabolizerTypes: [ Mentag ]
+    groups:
+    - id: Food
+    - id: Drink
