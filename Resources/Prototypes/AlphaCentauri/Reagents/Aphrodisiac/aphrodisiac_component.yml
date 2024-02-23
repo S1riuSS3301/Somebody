@@ -1,0 +1,219 @@
+# Основные компоненты
+# - type: reagent
+  # id: Aphrodisiac_light
+  # name: reagent-name-aphrodisiaclight
+  # desc: reagent-desc-aphrodisiaclight
+  # physicalDesc: reagent-physical-desc-aphrodisiaclight
+  # color: "#720031"
+
+# - type: reagent
+  # id: Aphrodisiac_dark
+  # name: reagent-name-aphrodisiacdark
+  # desc: reagent-desc-aphrodisiacdark
+  # physicalDesc: reagent-physical-desc-aphrodisiacdark
+  # color: "#720031"
+
+- type: reagent
+  id: Aphrodisiac_component_mix
+  name: reagent-name-aphrodisiaccomponentmix
+  desc: reagent-desc-aphrodisiaccomponentmix
+  physicalDesc: reagent-physical-desc-aphrodisiaccomponentmix
+  color: "#FFDC33"
+
+# Мякоть
+- type: reagent
+  id: Aphrofruct_juice
+  name: reagent-name-aphrofructjuice
+  desc: reagent-desc-aphrofructjuice
+  physicalDesc: reagent-physical-desc-aphrodisiacjuice
+  color: "#FF83F0"
+  metabolisms:
+    Food:
+      effects:
+      - !type:SatiateHunger
+        factor: 2.5
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2.5
+    Medicine:
+      effects:
+      - !type:PopupMessage #Male
+        type: Local
+        conditions:
+        - !type:ERPStatusCondition
+          erp: 0
+          shouldHave: false
+        - !type:SexCondition
+          sex: 0
+        - !type:ReagentThreshold
+          reagent: aphrodisiac
+          max: 15
+        visualType: Medium
+        messages:
+        - aphrodisiac-effect-1M
+        - aphrodisiac-effect-2M
+        - aphrodisiac-effect-3M
+        - aphrodisiac-effect-4M
+        probability: 0.25
+      - !type:PopupMessage #Female
+        type: Local
+        conditions:
+        - !type:ERPStatusCondition
+          erp: 0
+          shouldHave: false
+        - !type:SexCondition
+          sex: 1
+        - !type:ReagentThreshold
+          reagent: aphrodisiac
+          max: 15
+        visualType: Medium
+        messages:
+        - aphrodisiac-effect-1F
+        - aphrodisiac-effect-2F
+        - aphrodisiac-effect-3F
+        - aphrodisiac-effect-4F
+        probability: 0.25
+      - !type:PopupMessage #Unsexed
+        type: Local
+        conditions:
+        - !type:ERPStatusCondition
+          erp: 0
+          shouldHave: false
+        - !type:SexCondition
+          sex: 2
+        - !type:ReagentThreshold
+          reagent: aphrodisiac
+          max: 15
+        visualType: Medium
+        messages:
+        - aphrodisiac-effect-1N
+        - aphrodisiac-effect-2N
+        - aphrodisiac-effect-3N
+        - aphrodisiac-effect-4N
+        probability: 0.25
+
+# Основные компоненты
+# component_light
+# - type: reagent
+  # id: Aphrodisiac_component_light_1
+  # name: reagent-name-aphrodisiaccomponentlight1
+  # desc: reagent-desc-aphrodisiaccomponentlight1
+  # physicalDesc: reagent-physical-desc-aphrodisiaccomponentlight1
+  # color: "#720031"
+
+# - type: reagent
+  # id: Aphrodisiac_component_light_2
+  # name: reagent-name-aphrodisiaccomponentlight2
+  # desc: reagent-desc-aphrodisiaccomponentlight2
+  # physicalDesc: reagent-physical-desc-aphrodisiaccomponentlight2
+  # color: "#720031"
+
+# - type: reagent
+  # id: Aphrodisiac_component_light_3
+  # name: reagent-name-aphrodisiaccomponentlight3
+  # desc: reagent-desc-aphrodisiaccomponentlight3
+  # physicalDesc: reagent-physical-desc-aphrodisiaccomponentlight3
+  # color: "#720031"
+
+# - type: reagent
+  # id: Aphrodisiac_component_light_4
+  # name: reagent-name-aphrodisiaccomponentlight4
+  # desc: reagent-desc-aphrodisiaccomponentlight4
+  # physicalDesc: reagent-physical-desc-aphrodisiaccomponentlight4
+  # color: "#720031"
+
+# # component_light_#_1
+# - type: reagent
+  # id: Aphrodisiac_component_light_1_1
+  # name: reagent-name-aphrodisiaccomponentlight11
+  # desc: reagent-desc-aphrodisiaccomponentlight11
+  # physicalDesc: reagent-physical-desc-aphrodisiaccomponentlight11
+  # color: "#720031"
+
+# - type: reagent
+  # id: Aphrodisiac_component_light_2_1
+  # name: reagent-name-aphrodisiaccomponentlight21
+  # desc: reagent-desc-aphrodisiaccomponentlight21
+  # physicalDesc: reagent-physical-desc-aphrodisiaccomponentlight21
+  # color: "#720031"
+
+# - type: reagent
+  # id: Aphrodisiac_component_light_3_1
+  # name: reagent-name-aphrodisiaccomponentlight31
+  # desc: reagent-desc-aphrodisiaccomponentlight31
+  # physicalDesc: reagent-physical-desc-aphrodisiaccomponentlight31
+  # color: "#720031"
+
+# - type: reagent
+  # id: Aphrodisiac_component_light_4_1
+  # name: reagent-name-aphrodisiaccomponentlight41
+  # desc: reagent-desc-aphrodisiaccomponentlight41
+  # physicalDesc: reagent-physical-desc-aphrodisiaccomponentlight41
+  # color: "#720031"
+
+# # component_dark
+# - type: reagent
+  # id: Aphrodisiac_component_dark_1
+  # name: reagent-name-aphrodisiaccomponentdark1
+  # desc: reagent-desc-aphrodisiaccomponentdark1
+  # physicalDesc: reagent-physical-desc-aphrodisiaccomponentdark1
+  # color: "#720031"
+
+# - type: reagent
+  # id: Aphrodisiac_component_dark_2
+  # name: reagent-name-aphrodisiaccomponentdark2
+  # desc: reagent-desc-aphrodisiaccomponentdark2
+  # physicalDesc: reagent-physical-desc-aphrodisiaccomponentdark2
+  # color: "#720031"
+
+# - type: reagent
+  # id: Aphrodisiac_component_dark_3
+  # name: reagent-name-aphrodisiaccomponentdark3
+  # desc: reagent-desc-aphrodisiaccomponentdark3
+  # physicalDesc: reagent-physical-desc-aphrodisiaccomponentdark3
+  # color: "#720031"
+
+# - type: reagent
+  # id: Aphrodisiac_component_dark_4
+  # name: reagent-name-aphrodisiaccomponentdark4
+  # desc: reagent-desc-aphrodisiaccomponentdark4
+  # physicalDesc: reagent-physical-desc-aphrodisiaccomponentdark4
+  # color: "#720031"
+
+# # component_dark_#_1
+# - type: reagent
+  # id: Aphrodisiac_component_dark_1_1
+  # name: reagent-name-aphrodisiaccomponentdark11
+  # desc: reagent-desc-aphrodisiaccomponentdark11
+  # physicalDesc: reagent-physical-desc-aphrodisiaccomponentdark11
+  # color: "#720031"
+
+# - type: reagent
+  # id: Aphrodisiac_component_dark_2_1
+  # name: reagent-name-aphrodisiaccomponentdark21
+  # desc: reagent-desc-aphrodisiaccomponentdark21
+  # physicalDesc: reagent-physical-desc-aphrodisiaccomponentdark21
+  # color: "#720031"
+
+# - type: reagent
+  # id: Aphrodisiac_component_dark_3_1
+  # name: reagent-name-aphrodisiaccomponentdark31
+  # desc: reagent-desc-aphrodisiaccomponentdark31
+  # physicalDesc: reagent-physical-desc-aphrodisiaccomponentdark31
+  # color: "#720031"
+
+# - type: reagent
+  # id: Aphrodisiac_component_dark_4_1
+  # name: reagent-name-aphrodisiaccomponentdark41
+  # desc: reagent-desc-aphrodisiaccomponentdark41
+  # physicalDesc: reagent-physical-desc-aphrodisiaccomponentdark41
+  # color: "#720031"
+
+# # garbage
+# - type: reagent
+  # id: Aphrodisiac_component_garbage # =)
+  # name: reagent-name-aphrodisiaccomponentgarbage
+  # desc: reagent-desc-aphrodisiaccomponentgarbage
+  # physicalDesc: reagent-physical-desc-aphrodisiaccomponentgarbage
+  # color: "#720031"

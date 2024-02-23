@@ -1,0 +1,178 @@
+# catalyst: true
+# Расплавляем афро сок на компоненты
+- type: reaction
+  minTemp: 500
+  id: Aphrofruct_juice
+  reactants:
+    Aphrofruct_juice:
+      amount: 1
+  products:
+    Aphrodisiac_component_mix: 5
+    Nutriment: 2
+    Vitamin: 3
+
+# - type: reaction
+  # minTemp: 270
+  # id: Aphrodisiac_component_mix
+  # reactants:
+    # Aphrodisiac_component_mix:
+      # amount: 1
+    # PolytrinicAcid:
+      # amount: 10
+      # catalyst: true
+    # FluorosulfuricAcid:
+      # amount: 10
+      # catalyst: true
+  # products:
+    # Aphrodisiac_component_light_1: 0.2
+    # Aphrodisiac_component_light_2: 0.2
+    # Aphrodisiac_component_light_3: 0.2
+    # Aphrodisiac_component_light_4: 0.2
+    # Aphrodisiac_component_dark_1: 0.2
+    # Aphrodisiac_component_dark_2: 0.2
+    # Aphrodisiac_component_dark_3: 0.2
+    # Aphrodisiac_component_dark_4: 0.2
+
+# # Конечный рецепт
+# - type: reaction
+  # minTemp: 700
+  # id: aphrodisiac
+  # reactants:
+    # Aphrodisiac_light:
+      # amount: 1
+    # Aphrodisiac_dark:
+      # amount: 1
+  # products:
+    # aphrodisiac: 0.2
+
+- type: reaction
+  minTemp: 700
+  id: aphrodisiac
+  reactants:
+    Aphrodisiac_component_mix:
+      amount: 1
+    Cryoxadone:
+      amount: 1
+    PolytrinicAcid:
+      amount: 10
+      catalyst: true
+    FluorosulfuricAcid:
+      amount: 10
+      catalyst: true
+    BlueSpaceCrystal:
+      amount: 10
+      catalyst: true
+    Plasma:
+      amount: 10
+      catalyst: true
+  products:
+    aphrodisiac: 0.2
+
+# # Последние компоненты
+# - type: reaction
+  # id: Aphrodisiac_light
+  # minTemp: 370
+  # reactants:
+    # Aphrodisiac_component_light_1_1:
+      # amount: 1
+    # Aphrodisiac_component_light_2_1:
+      # amount: 1
+    # Aphrodisiac_component_light_3_1:
+      # amount: 1
+    # Aphrodisiac_component_light_4_1:
+      # amount: 1
+  # products:
+    # Aphrodisiac_light: 1
+
+# - type: reaction
+  # id: Aphrodisiac_dark
+  # minTemp: 370
+  # reactants:
+    # Aphrodisiac_component_dark_1_1:
+      # amount: 1
+    # Aphrodisiac_component_dark_2_1:
+      # amount: 1
+    # Aphrodisiac_component_dark_3_1:
+      # amount: 1
+    # Aphrodisiac_component_dark_4_1:
+      # amount: 1
+  # products:
+    # Aphrodisiac_dark: 1
+
+# # Компоненты для Aphrodisiac_light
+
+# - type: reaction
+  # id: Aphrodisiac_component_light_1_1
+  # minTemp: 370
+  # reactants:
+    # Aphrodisiac_component_light_1:
+      # amount: 1
+  # products:
+    # Aphrodisiac_component_light_1_1: 1
+
+# - type: reaction
+  # id: Aphrodisiac_component_light_2_1
+  # minTemp: 370
+  # reactants:
+    # Aphrodisiac_component_light_2:
+      # amount: 1
+  # products:
+    # Aphrodisiac_component_light_2_1: 1
+
+# - type: reaction
+  # id: Aphrodisiac_component_light_3_1
+  # minTemp: 370
+  # reactants:
+    # Aphrodisiac_component_light_3:
+      # amount: 1
+  # products:
+    # Aphrodisiac_component_light_3_1: 1
+
+# - type: reaction
+  # id: Aphrodisiac_component_light_4_1
+  # minTemp: 370
+  # reactants:
+    # Aphrodisiac_component_light_4:
+      # amount: 1
+  # products:
+    # Aphrodisiac_component_light_4_1: 1
+
+# # Компоненты для Aphrodisiac_dark
+
+# - type: reaction
+  # id: Aphrodisiac_component_dark_1_1
+  # minTemp: 370
+  # reactants:
+    # Aphrodisiac_component_dark_1:
+      # amount: 1
+  # products:
+    # Aphrodisiac_component_dark_1_1: 1
+
+# - type: reaction
+  # id: Aphrodisiac_component_dark_2_1
+  # minTemp: 370
+  # reactants:
+    # Aphrodisiac_component_dark_2:
+      # amount: 1
+  # products:
+    # Aphrodisiac_component_dark_2_1: 1
+
+# - type: reaction
+  # id: Aphrodisiac_component_dark_3_1
+  # minTemp: 370
+  # reactants:
+    # Aphrodisiac_component_dark_3:
+      # amount: 1
+  # products:
+    # Aphrodisiac_component_dark_3_1: 1
+
+# - type: reaction
+  # id: Aphrodisiac_component_dark_4_1
+  # minTemp: 370
+  # reactants:
+    # Aphrodisiac_component_dark_4:
+      # amount: 1
+  # products:
+    # Aphrodisiac_component_dark_4_1: 1
+
+# # Мусорные реакции. Если вы их получили - сушите всёсла

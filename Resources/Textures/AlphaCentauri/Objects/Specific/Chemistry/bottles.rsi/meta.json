@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "By discord user Imera#1656",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "LoveBottle"
+    },
+	{
+      "name": "LoveBottle-1"
+    },
+	{
+      "name": "LoveBottle-2"
+    },
+	{
+      "name": "LoveBottle-3"
+    },
+	{
+      "name": "LoveBottle-4"
+    },
+	{
+      "name": "LoveBottle-5"
+    },
+	{
+      "name": "LoveBottle-6"
+    },
+	{
+      "name": "TreuBottle"
+    },
+	{
+      "name": "TreuBottle-1"
+    },
+	{
+      "name": "TreuBottle-2"
+    },
+	{
+      "name": "TreuBottle-3"
+    },
+	{
+      "name": "TreuBottle-4"
+    },
+	{
+      "name": "TreuBottle-5"
+    },
+	{
+      "name": "TreuBottle-6"
+    },
+	{
+      "name": "ReagentBottle"
+    },
+	{
+      "name": "ReagentBottle-1"
+    },
+	{
+      "name": "ReagentBottle-2"
+    },
+	{
+      "name": "ReagentBottle-3"
+    },
+	{
+      "name": "ReagentBottle-4"
+    },
+	{
+      "name": "ReagentBottle-5"
+    },
+	{
+      "name": "ReagentBottle-6"
+    }
+  ]
+}

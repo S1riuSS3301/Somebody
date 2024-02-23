@@ -1,0 +1,75 @@
+- type: entity
+  name: afro fruit
+  parent: FoodProduceBase
+  id: AfroFruit
+  description: "According to our geneticist, this is a genetically modified version of breeding crops such as cherry and peach. Due to the special mutation, it has received, in addition to its excellent taste and nutritional qualities, also a side chemical composition."
+  components:
+  - type: FlavorProfile
+    flavors:
+       - afrofruit
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 30
+        reagents:
+        - ReagentId: Aphrofruct_juice
+          Quantity: 15
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/Specific/Chemistry/afro.rsi
+  - type: Produce
+    seedId: AfroFruitPlant
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Aphrofruct_juice
+        Quantity: 20
+
+- type: seed
+  id: AfroFruitPlant
+  name: seeds-afrofruit-name
+  noun: seeds-noun-seeds
+  displayName: seeds-afrofruit-display-name
+  plantRsi: AlphaCentauri/Objects/Specific/Chemistry/afro.rsi
+  packetPrototype: AfroFruitSeed
+  productPrototypes:
+    - AfroFruit
+  harvestRepeat: Repeat
+  lifespan: 55
+  maturation: 10
+  production: 1
+  yield: 1
+  potency: 10
+  idealLight: 6
+  chemicals:
+    Aphrofruct_juice:
+      Min: 15
+      Max: 15
+      PotencyDivisor: 100
+
+- type: entity
+  parent: SeedBase
+  name: packet of afro fruit seeds
+  id: AfroFruitSeed
+  components:
+    - type: Seed
+      seedId: AfroFruitPlant
+    - type: Sprite
+      sprite: AlphaCentauri/Objects/Specific/Chemistry/afro.rsi
+
+- type: entity
+  name: LoveBottleI
+  parent: BaseChemistryEmptyBottle
+  description: A jar for storing liquids
+  id: LoveBottleI
+  components:
+  - type: Sprite
+    sprite: AlphaCentauri/Objects/Specific/Chemistry/bottles.rsi
+    layers:
+      - state: LoveBottle
+      - state: LoveBottle-1
+        map: ["enum.SolutionContainerLayers.Fill"]
+        visible: false
+  - type: Appearance
+  - type: SolutionContainerVisuals
+    maxFillLevels: 6
+    fillBaseName: LoveBottle-
