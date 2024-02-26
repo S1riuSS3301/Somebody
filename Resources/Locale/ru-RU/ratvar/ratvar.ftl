@@ -1,3 +1,5 @@
+ratvar-has-risen = RATVAR HAS AWOKEN
+ratvar-has-risen-sender = ???
 ratvar-punish-lightning-name = Покарать молнией
 ratvar-punish-lightning-description = Покаряет цель молнией
 
