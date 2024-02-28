@@ -1,0 +1,17 @@
+- type: gameMapPool
+  id: AlphaCentauriDefaultMapPool
+  maps:
+    - Atlas
+    - Bagel
+    - Box
+    - Cluster
+    - Core
+    - Fland
+    - Marathon
+    - Meta
+    - Omega
+    - Origin
+    - Saltern
+    - Packed
+    - Reach
+    - NormandySR3
