@@ -185,21 +185,13 @@ public sealed class StationSpawningSystem : SharedStationSpawningSystem
         {
             _humanoidSystem.LoadProfile(entity.Value, profile);
             _metaSystem.SetEntityName(entity.Value, profile.Name);
+            // AlphaCentauri-ERPStatus-Start
+            var _DetailExamineComp = AddComp<DetailExaminableComponent>(entity.Value);
+            _DetailExamineComp.ERPStatus = profile.ERPStatus;
+            _DetailExamineComp.Content = "";
             if (profile.FlavorText != "" && _configurationManager.GetCVar(CCVars.FlavorText))
-            {
-                var _DetailExamineComp = AddComp<DetailExaminableComponent>(entity.Value);
                 _DetailExamineComp.Content = profile.FlavorText;
-                _DetailExamineComp.ERPStatus = profile.ERPStatus;
-                /*AddComp<DetailExaminableComponent>(entity.Value) = {
-                    Content = profile.FlavorText,
-                    ERPStatus = profile.ERPStatus
-                };*/
-                // AlphaCentauri-ERPStatus-Start
-                /*var _DetailExamineComp = EntityManager.AddComponent<DetailExaminableComponent>(entity);
-                _DetailExamineComp.Content = profile.FlavorText;
-                _DetailExamineComp.ERPStatus = profile.ERPStatus;*/
-                // AlphaCentauri-ERPStatus-End
-            }
+            // AlphaCentauri-ERPStatus-End
         }
 
         DoJobSpecials(job, entity.Value);
