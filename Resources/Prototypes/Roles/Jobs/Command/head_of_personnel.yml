@@ -61,10 +61,7 @@
 - type: startingGear
   id: HoPGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitHoP
-    back: ClothingBackpackHOPFilled
     shoes: ClothingShoesColorBrown
-    head: ClothingHeadHatHopcap
     id: HoPPDA
     gloves: ClothingHandsGlovesHop
     ears: ClothingHeadsetAltCommand
@@ -72,6 +69,3 @@
     underwearb: ClothingUnderwearBottomBoxersHOP # AlphaCentauri-Underwear
   underweart: ClothingUnderwearTopBraHOP # AlphaCentauri-Underwear
   underwearb: ClothingUnderwearBottomPantiesHOP # AlphaCentauri-Underwear
-  innerClothingSkirt: ClothingUniformJumpskirtHoP
-  satchel: ClothingBackpackSatchelHOPFilled
-  duffelbag: ClothingBackpackDuffelHOPFilled

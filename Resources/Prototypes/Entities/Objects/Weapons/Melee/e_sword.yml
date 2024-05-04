@@ -78,9 +78,6 @@
     malus: 0
   - type: Reflect
     enabled: false
-  - type: Tag
-    tags:
-      - NoPaint
   - type: IgnitionSource
     temperature: 700
 # Corvax-HiddenDesc-Start
@@ -98,6 +95,7 @@
         - SecurityCadet
         - SecurityOfficer
         - Warden
+        - Captain
     - label: corvax-hidden-desc-EnergySword-cargo
       jobRequired:
         - SalvageSpecialist
@@ -178,7 +176,6 @@
   - type: Tag
     tags:
     - Write
-    - NoPaint
   - type: DisarmMalus
     malus: 0
 # Corvax-HiddenDesc-Start
@@ -262,6 +259,7 @@
         - SecurityCadet
         - SecurityOfficer
         - Warden
+        - Captain
     - label: corvax-hidden-desc-EnergyCutlass-cargo
       jobRequired:
         - SalvageSpecialist
@@ -350,6 +348,7 @@
         - SecurityCadet
         - SecurityOfficer
         - Warden
+        - Captain
     - label: corvax-hidden-desc-EnergySword-cargo
       jobRequired:
         - SalvageSpecialist

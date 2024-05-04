@@ -42,12 +42,13 @@ public class ActionButtonContainer : GridContainer
         {
             var button = new ActionButton(_entity);
 
-            if (keys.TryGetValue(index, out var boundKey))
-            {
-                button.KeyBind = boundKey;
+            if (!keys.TryGetValue(index, out var boundKey))
+                return button;
 
-                var binding = _input.GetKeyBinding(boundKey);
-                button.Label.Text = binding.GetKeyString().Replace("Num","");//Remove "Num" from label
+            button.KeyBind = boundKey;
+            if (_input.TryGetKeyBinding(boundKey, out var binding))
+            {
+                button.Label.Text = binding.GetKeyString();
             }
 
             return button;

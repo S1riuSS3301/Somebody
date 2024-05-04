@@ -30,4 +30,6 @@ public enum SlotFlags
     UNDERWEARB = 1 << 10, // AlphaCentauri add
     SOCKS = 1 << 10,      // AlphaCentauri add
     All = ~NONE,
+
+    WITHOUT_POCKET = All & ~POCKET
 }

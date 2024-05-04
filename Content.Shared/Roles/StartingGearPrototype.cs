@@ -10,20 +10,14 @@ namespace Content.Shared.Roles
         [DataField]
         public Dictionary<string, EntProtoId> Equipment = new();
 
-        /// <summary>
-        /// if empty, there is no skirt override - instead the uniform provided in equipment is added.
-        /// </summary>
-        [DataField]
-        public EntProtoId? InnerClothingSkirt;
-
-        [DataField]
-        public EntProtoId? Satchel;
-
-        [DataField]
-        public EntProtoId? Duffelbag;
-
         [DataField]
         public List<EntProtoId> Inhand = new(0);
+
+        /// <summary>
+        /// Inserts entities into the specified slot's storage (if it does have storage).
+        /// </summary>
+        [DataField]
+        public Dictionary<string, List<EntProtoId>> Storage = new();
 
         // AlphaCentauri-Underwear-Start
         [DataField("underweart")]
@@ -37,7 +31,7 @@ namespace Content.Shared.Roles
         [IdDataField]
         public string ID { get; private set; } = string.Empty;
 
-        public string GetGear(string slot, HumanoidCharacterProfile? profile)
+        public string GetGear(string slot)
         {
             if (profile != null)
             {
