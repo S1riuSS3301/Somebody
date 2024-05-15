@@ -33,21 +33,15 @@ namespace Content.Shared.Roles
 
         public string GetGear(string slot)
         {
-            if (profile != null)
+            /*if (profile != null)
             {
-                if (slot == "jumpsuit" && profile.Clothing == ClothingPreference.Jumpskirt && !string.IsNullOrEmpty(InnerClothingSkirt))
-                    return InnerClothingSkirt;
-                if (slot == "back" && profile.Backpack == BackpackPreference.Satchel && !string.IsNullOrEmpty(Satchel))
-                    return Satchel;
-                if (slot == "back" && profile.Backpack == BackpackPreference.Duffelbag && !string.IsNullOrEmpty(Duffelbag))
-                    return Duffelbag;
                 // AlphaCentauri-Underwear-Start
                 if (slot == "underweart" && profile.Sex == Sex.Female && !string.IsNullOrEmpty(_underweart))
                     return _underweart;
                 if (slot == "underwearb" && profile.Sex == Sex.Female && !string.IsNullOrEmpty(_underwearb))
                     return _underwearb;
                 // AlphaCentauri-Underwear-End
-            }
+            }*/
 
             return Equipment.TryGetValue(slot, out var equipment) ? equipment : string.Empty;
         }
