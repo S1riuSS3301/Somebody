@@ -40,8 +40,6 @@
   - type: Examiner
   - type: NoSlip
   - type: Actions
-  - type: TTS # Corvax-TTS
-    voice: Kelthuzad
   - type: Eye
     drawFov: false
     visMask:
@@ -58,6 +56,8 @@
     name: ghost-role-information-revenant-name
     description: ghost-role-information-revenant-description
     rules: ghost-role-information-revenant-rules
+    raffle:
+      settings: default
   - type: GhostTakeoverAvailable
   - type: Revenant
     malfunctionWhitelist:
@@ -88,9 +88,9 @@
     - StolenEssence
   - type: RandomMetadata
     nameSegments:
-#    - The
+    - The
     - RevenantType
-#    - of
+    - of
     - RevenantAdjective
     - RevenantTheme
   - type: Speech

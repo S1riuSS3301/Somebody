@@ -27,7 +27,7 @@
   - extended
   - shittersafari
   name: extended-title
-  showInVote: true
+  showInVote: false #2boring2vote
   description: extended-description
   rules:
   - BasicStationEventScheduler
@@ -73,16 +73,16 @@
   showInVote: false #Admin Use
   description: secret-description
 
-#- type: gamePreset
-#  id: Sandbox
-#  alias:
-#    - sandbox
-#  name: sandbox-title
-#  description: sandbox-description
-#  showInVote: true
-#  maxPlayers: 5
-#  rules:
-#    - Sandbox
+- type: gamePreset
+  id: Sandbox
+  alias:
+    - sandbox
+  name: sandbox-title
+  description: sandbox-description
+  showInVote: false # Not suitable for use without admin intervention, since entity spamming can quickly crash a server
+  maxPlayers: 5
+  rules:
+    - Sandbox
 
 - type: gamePreset
   id: Traitor
@@ -116,7 +116,7 @@
     - nukeops
   name: nukeops-title
   description: nukeops-description
-  showInVote: true
+  showInVote: false
   rules:
     - Nukeops
     - SubGamemodesRule
@@ -148,7 +148,7 @@
   - zomber
   name: zombie-title
   description: zombie-description
-  showInVote: true
+  showInVote: false
   rules:
   - Zombie
   - BasicStationEventScheduler

@@ -80,7 +80,6 @@
           festive: { state: christmaslamp }
         light:
           festive: { state: christmaslamp-on }
-  - type: Rotatable # Corvax-Resprite
 
 - type: entity
   name: banana lamp
@@ -95,7 +94,6 @@
         shader: unshaded
         visible: false
         map: [ "light" ]
-  - type: Rotatable
 
 - type: entity
   name: desk lamp
@@ -129,7 +127,6 @@
           festive:
             sprite: Objects/Misc/Lights/lamp.rsi
             state: christmaslamp-on
-  - type: Rotatable # Corvax-Resprite
 
 - type: entity
   name: interrogator lamp
@@ -215,6 +212,11 @@
     enabled: false
     radius: 8
     energy: 5
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellMedium
   - type: Anchorable
   - type: Damageable
     damageContainer: Inorganic

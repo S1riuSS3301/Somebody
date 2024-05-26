@@ -6,7 +6,7 @@
     requirement:
       !type:RoleTimeRequirement
       role: JobWarden
-      time: 72000 #20 hrs # Corvax-RoleTime
+      time: 21600 #6 hrs
   - !type:JobRequirementLoadoutEffect
     requirement:
       !type:DepartmentTimeRequirement

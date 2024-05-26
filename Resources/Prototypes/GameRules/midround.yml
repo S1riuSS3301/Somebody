@@ -12,6 +12,7 @@
     - DoorjackObjective
     - SpiderChargeObjective
     - TerrorObjective
+    - MassArrestObjective
     - NinjaSurviveObjective
   - type: NinjaRule
     threats: NinjaThreats
@@ -43,10 +44,10 @@
       playerRatio: 1
       lateJoinAdditional: true
       allowNonHumans: true
-      multiAntagSetting: All
+      multiAntagSetting: NotExclusive
       startingGear: ThiefGear
-#      components: # Corvax-MRP
-#      - type: Pacified
+      components:
+      - type: Pacified
       mindComponents:
       - type: ThiefRole
         prototype: Thief

@@ -89,11 +89,6 @@
     ClothingHandsGlovesColorPurple: 2
     ClothingEyesGlassesCheapSunglasses: 3
     # DO NOT ADD MORE, USE UNIFORM DYING
-    # AlphaCentauri-Start
-    ClothingUnderwearBottomPantiesWhite: 5
-    ClothingUnderwearTopBraWhite: 5
-    ClothingUnderwearBottomBoxersWhite: 5
-    # AlphaCentauri-End
   contrabandInventory:
     ClothingMaskNeckGaiter: 2
     ClothingUniformJumpsuitTacticool: 1

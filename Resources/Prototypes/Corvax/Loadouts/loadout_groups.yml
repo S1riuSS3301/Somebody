@@ -1,8 +1,0 @@
-- type: loadoutGroup
-  id: PsychologistBackpack
-  name: loadout-group-psychologist-backpack
-  loadouts:
-  - PsychologistBackpack
-  - PsychologistSatchel
-  - PsychologistDuffel
-

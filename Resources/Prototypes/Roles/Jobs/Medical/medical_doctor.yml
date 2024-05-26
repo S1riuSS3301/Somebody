@@ -6,7 +6,7 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Medical
-      time: 7200 #2 hrs # Corvax-RoleTime
+      time: 14400 #4 hrs
   startingGear: DoctorGear
   icon: "JobIconMedicalDoctor"
   supervisors: job-supervisors-cmo
@@ -21,6 +21,3 @@
   equipment:
     ears: ClothingHeadsetMedical
     belt: ClothingBeltMedicalFilled
-    underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
-  underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
-  underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear

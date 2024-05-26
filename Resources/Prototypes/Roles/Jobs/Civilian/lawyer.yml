@@ -7,7 +7,6 @@
     - !type:OverallPlaytimeRequirement
       time: 36000 # 10 hrs
   startingGear: LawyerGear
-  setPreference: false # Corvax-IAA
   icon: "JobIconLawyer"
   supervisors: job-supervisors-hop
   access:
@@ -23,8 +22,5 @@
     id: LawyerPDA
     ears: ClothingHeadsetSecurity
     # TODO add copy of space law
-    underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
-  underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
-  underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear
   inhand:
     - BriefcaseBrownFilled

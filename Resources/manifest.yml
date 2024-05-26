@@ -1,5 +1,5 @@
-defaultWindowTitle: Space Station 14 - AlphaCentauri [RU]
-windowIconSet: /Textures/Logo/icon-ru # Corvax-Theme
-splashLogo: /Textures/Logo/AClogo.png # Corvax-Theme
+﻿defaultWindowTitle: Space Station 14 - AlphaCentauri [RU]
+windowIconSet: /Textures/AlphaCentauri/Logo/icon
+splashLogo: /Textures/AlphaCentauri/Logo/AClogo.png
 
 # PJB PLEASE

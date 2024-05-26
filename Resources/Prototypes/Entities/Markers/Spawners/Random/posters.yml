@@ -83,7 +83,6 @@
       - PosterContrabandBeachStarYamamoto
       - PosterContrabandHighEffectEngineering
       - PosterContrabandNuclearDeviceInformational
-      - PosterLegitEnlist # Corvax-Lore
       - PosterContrabandRevolt
       - PosterContrabandRise
       - PosterContrabandMoth
@@ -136,6 +135,7 @@
       - PosterLegit50thAnniversaryVintageReprint
       - PosterLegitFruitBowl
       - PosterLegitPDAAd
+      - PosterLegitEnlist
       - PosterLegitNanomichiAd
       - PosterLegit12Gauge
       - PosterLegitHighClassMartini
@@ -150,5 +150,4 @@
       - PosterLegitPeriodicTable
       - PosterLegitRenault
       - PosterLegitNTTGC
-      - PosterLegitERPAllowed
     chance: 1

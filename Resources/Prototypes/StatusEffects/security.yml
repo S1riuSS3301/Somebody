@@ -3,7 +3,7 @@
   abstract: true
   priority: 3
   offset: 1
-  locationPreference: Left # Corvax-TypingIndicator
+  locationPreference: Right
   isShaded: true
 
 - type: statusIcon

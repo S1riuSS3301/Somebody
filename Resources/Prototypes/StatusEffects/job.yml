@@ -2,7 +2,7 @@
   id: JobIcon
   abstract: true
   priority: 1
-  locationPreference: Left # Corvax-TypingIndicator
+  locationPreference: Right
   isShaded: true
 
 - type: statusIcon
@@ -375,3 +375,10 @@
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi
     state: Visitor
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconAdmin
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Admin

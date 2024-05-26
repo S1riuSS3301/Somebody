@@ -27,12 +27,12 @@
       sprite: Mobs/Customization/masking_helpers.rsi
       state: unisex_full
       visible: false
-    - map: [ "underwearb" ] #AlphaCentauri
-    - map: [ "underweart" ] #AlphaCentauri
+    - map: [ "underwearb" ] # AlphaCentauri
+    - map: [ "underweart" ] # AlphaCentauri
+    - map: [ "socks" ] # AlphaCentauri
     - map: ["jumpsuit"]
     - map: ["enum.HumanoidVisualLayers.LFoot"]
     - map: ["enum.HumanoidVisualLayers.RFoot"]
-    - map: [ "socks" ] #AlphaCentauri
     - map: ["enum.HumanoidVisualLayers.LHand"]
     - map: ["enum.HumanoidVisualLayers.RHand"]
     - map: [ "gloves" ]
@@ -339,12 +339,9 @@
       sprite: Mobs/Customization/masking_helpers.rsi
       state: unisex_full
       visible: false
-    - map: [ "underwearb" ] #AlphaCentauri
-    - map: [ "underweart" ] #AlphaCentauri
     - map: ["jumpsuit"]
     - map: ["enum.HumanoidVisualLayers.LFoot"]
     - map: ["enum.HumanoidVisualLayers.RFoot"]
-    - map: [ "socks" ]
     - map: ["enum.HumanoidVisualLayers.LHand"]
     - map: ["enum.HumanoidVisualLayers.RHand"]
     - map: ["enum.HumanoidVisualLayers.Handcuffs"]

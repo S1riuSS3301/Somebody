@@ -8,6 +8,9 @@ namespace Content.Server.DetailExaminable
         [DataField("content", required: true)] [ViewVariables(VVAccess.ReadWrite)]
         public string Content = "";
 
+        /*
+         AlphaCentauri ERP status start
+         */
         [DataField("ERPStatus", required: true)]
         [ViewVariables(VVAccess.ReadWrite)]
         public EnumStatus ERPStatus = EnumStatus.NO;
@@ -24,5 +27,8 @@ namespace Content.Server.DetailExaminable
                     return Loc.GetString("character-erp-status-no");
             }
         }
+        /*
+         AlphaCentauri ERP status end
+         */
     }
 }

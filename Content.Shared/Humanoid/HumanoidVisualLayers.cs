@@ -1,4 +1,4 @@
-﻿using Content.Shared.Humanoid.Markings;
+using Content.Shared.Humanoid.Markings;
 using Robust.Shared.Serialization;
 
 namespace Content.Shared.Humanoid
@@ -10,7 +10,7 @@ namespace Content.Shared.Humanoid
         Hair,
         FacialHair,
         Chest,
-        Back,
+        Back, //AlphaCentauri
         Head,
         Snout,
         HeadSide, // side parts (i.e., frills)

@@ -3,7 +3,7 @@
 	url = https://github.com/space-wizards/RobustToolbox.git
 	branch = master
 [submodule "Secrets"]
-	path = Secrets
-	url = git@github.com:corvax-project/secrets.git
-	branch = master
-	update = none
+        path = Secrets
+        url = git@github.com:corvax-project/secrets.git
+        branch = master
+        update = none

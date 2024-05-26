@@ -5,7 +5,7 @@
   playTimeTracker: JobMusician
   startingGear: MusicianGear
   icon: "JobIconMusician"
-  supervisors: job-supervisors-hop # Corvax-JobSupervisors
+  supervisors: job-supervisors-hire
   access:
   - Maintenance # TODO Remove maint access for all gimmick jobs once access work is completed
   - Theatre
@@ -22,6 +22,3 @@
     shoes: ClothingShoesBootsLaceup
     id: MusicianPDA
     ears: ClothingHeadsetService
-    underwearb: ClothingUnderwearBottomBoxersWhite # AlphaCentauri-Underwear
-  underweart: ClothingUnderwearTopBraWhite # AlphaCentauri-Underwear
-  underwearb: ClothingUnderwearBottomPantiesWhite # AlphaCentauri-Underwear

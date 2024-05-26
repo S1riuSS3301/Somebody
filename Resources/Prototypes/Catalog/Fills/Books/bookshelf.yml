@@ -122,9 +122,6 @@
       - id: BookJourney
         prob: 0.1
         orGroup: BookAuthor
-      - id: BookBusido # Corvax-Books
-        prob: 0.1
-        orGroup: BookAuthor
       - id: BookInspiration
         prob: 0.1
         orGroup: BookAuthor

@@ -21,8 +21,7 @@ namespace Content.Client.VendingMachines.UI
 
         public VendingMachineMenu()
         {
-            MinSize = new Vector2(250, 150); // Corvax-Resize
-            SetSize = new Vector2(450, 150); // Corvax-Resize
+            MinSize = SetSize = new Vector2(250, 150);
             RobustXamlLoader.Load(this);
             IoCManager.InjectDependencies(this);
 

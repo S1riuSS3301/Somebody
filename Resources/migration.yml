@@ -16,10 +16,6 @@ ClothingHeadHelmetHelmetOld: ClothingHeadHelmetBasic
 # Bulletproof armor is almost statistically identical to kevlar, however, before this kevlar armor was the closest thing there was to "basic" armor. It makes the most sense to replace it with this.
 ClothingOuterVestKevlar: ClothingOuterArmorBasic
 
-# 2023-07-11 - Corvax
-# New cargo pet
-SpawnMobRaccoonMorticia: SpawnMobGorillaLargo
-
 # 2023-07-10
 Intercom: IntercomCommon
 
@@ -205,7 +201,7 @@ ActionVehicleHorn: null
 CrateFunATV: null
 CrateFunSyndicateSegway: null
 MobTaxiBot: null
-MobSupplyBot: null
+# MobSupplyBot: null
 SpawnVehicleMotobike: null
 SpawnVehicleATV: null
 SpawnVehicleSecway: null
@@ -339,3 +335,7 @@ ReinforcementRadioSyndicateMonkeyNukeops: ReinforcementRadioSyndicateAncestorNuk
 
 # 2024-05-01
 DrinkBottleGoldschlager: DrinkBottleGildlager
+
+# 2024-05-14
+soda_dispenser: SodaDispenser
+chem_master: ChemMaster

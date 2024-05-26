@@ -6,9 +6,9 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Science
-      time: 54000 #15 hrs # Corvax-RoleTime
-#    - !type:OverallPlaytimeRequirement
-#      time: 144000 #40 hrs
+      time: 36000 #10 hrs
+    - !type:OverallPlaytimeRequirement
+      time: 144000 #40 hrs
   weight: 10
   startingGear: ResearchDirectorGear
   icon: "JobIconResearchDirector"
@@ -34,6 +34,3 @@
   equipment:
     id: RnDPDA
     ears: ClothingHeadsetRD
-    underwearb: ClothingUnderwearBottomBoxersRD # AlphaCentauri-Underwear
-  underweart: ClothingUnderwearTopBraRD # AlphaCentauri-Underwear
-  underwearb: ClothingUnderwearBottomPantiesRD # AlphaCentauri-Underwear

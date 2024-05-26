@@ -26,9 +26,9 @@ public enum SlotFlags
     LEGS = 1 << 13,
     FEET = 1 << 14,
     SUITSTORAGE = 1 << 15,
-    UNDERWEART = 1 << 10, // AlphaCentauri add
-    UNDERWEARB = 1 << 10, // AlphaCentauri add
-    SOCKS = 1 << 10,      // AlphaCentauri add
+    UNDERWEART = 1 << 16, // AlphaCentauri
+    UNDERWEARB = 1 << 17, // AlphaCentauri
+    SOCKS = 1 << 18,      // AlphaCentauri
     All = ~NONE,
 
     WITHOUT_POCKET = All & ~POCKET

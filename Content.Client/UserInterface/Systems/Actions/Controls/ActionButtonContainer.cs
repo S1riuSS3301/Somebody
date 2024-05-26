@@ -48,7 +48,7 @@ public class ActionButtonContainer : GridContainer
             button.KeyBind = boundKey;
             if (_input.TryGetKeyBinding(boundKey, out var binding))
             {
-                button.Label.Text = binding.GetKeyString();
+                button.Label.Text = binding.GetKeyString().Replace("Num",""); // AlphaCentauri
             }
 
             return button;

@@ -11,7 +11,6 @@
     DrinkIceBucket: 2
     BarSpoon: 3
     CustomDrinkJug: 2 #to allow for custom drinks in the soda/booze dispensers
-    DrinkCampariBottleFull: 5 # Corvax
     DrinkAbsintheBottleFull: 2
     DrinkAleBottleFull: 5
     DrinkBeerBottleFull: 5
@@ -19,6 +18,7 @@
     DrinkCognacBottleFull: 4
     DrinkCoconutWaterCarton: 3
     DrinkColaBottleFull: 4
+    DrinkEnergyDrinkCan: 8
     DrinkMilkCarton: 2
     DrinkCreamCarton: 5
     DrinkGinBottleFull: 3

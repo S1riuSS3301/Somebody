@@ -19,12 +19,6 @@
       - id: RubberStampApproved
       - id: ClothingHeadsetAltCargo
       - id: BoxEncryptionKeyCargo
-      - id: PrinterDocFlatpack # Corvax-Printer
-      # AlphaCentauri-Underwear-Start
-      - id: ClothingUnderwearBottomBoxersQM
-      - id: ClothingUnderwearBottomPantiesQM
-      - id: ClothingUnderwearTopBraQM
-      # AlphaCentauri-Underwear-End
 
 - type: entity
   id: LockerCaptainFilledHardsuit
@@ -79,15 +73,6 @@
       - id: WeaponAntiqueLaser
       - id: JetpackCaptainFilled
       - id: MedalCase
-      # Corvax-Resprite-Start
-      - id: ClothingHeadCaptainHat
-      - id: ClothingOuterCoatCaptain
-      # Corvax-Resprite-End
-      # AlphaCentauri-Underwear-Start
-      - id: ClothingUnderwearBottomBoxersCap
-      - id: ClothingUnderwearBottomPantiesCap
-      - id: ClothingUnderwearTopBraCap
-      # AlphaCentauri-Underwear-End
 
 - type: entity
   id: LockerCaptainFilledNoLaser
@@ -141,14 +126,7 @@
       - id: BoxEncryptionKeyService
       - id: ClothingBackpackIan
         prob: 0.5
-      - id: ClothingOuterCoatHOP # Corvax-Resprite
       - id: AccessConfigurator
-      - id: PrinterDocFlatpack # Corvax-Printer
-      # AlphaCentauri-Underwear-Start
-      - id: ClothingUnderwearBottomBoxersHOP
-      - id: ClothingUnderwearBottomPantiesHOP
-      - id: ClothingUnderwearTopBraHOP
-      # AlphaCentauri-Underwear-End
 
 - type: entity
   id: LockerChiefEngineerFilledHardsuit
@@ -173,11 +151,6 @@
       - id: AccessConfigurator
       - id: RCD
       - id: RCDAmmo
-      # AlphaCentauri-Underwear-Start
-      - id: ClothingUnderwearBottomBoxersCE
-      - id: ClothingUnderwearBottomPantiesCE
-      - id: ClothingUnderwearTopBraCE
-      # AlphaCentauri-Underwear-End
 
 - type: entity
   id: LockerChiefEngineerFilled
@@ -198,11 +171,6 @@
       - id: AccessConfigurator
       - id: RCD
       - id: RCDAmmo
-      # AlphaCentauri-Underwear-Start
-      - id: ClothingUnderwearBottomBoxersCE
-      - id: ClothingUnderwearBottomPantiesCE
-      - id: ClothingUnderwearTopBraCE
-      # AlphaCentauri-Underwear-End
 
 - type: entity
   id: LockerChiefMedicalOfficerFilledHardsuit
@@ -226,11 +194,6 @@
       - id: RubberStampCMO
       - id: MedicalTechFabCircuitboard
       - id: BoxEncryptionKeyMedical
-      # AlphaCentauri-Underwear-Start
-      - id: ClothingUnderwearBottomBoxersCMO
-      - id: ClothingUnderwearBottomPantiesCMO
-      - id: ClothingUnderwearTopBraCMO
-      # AlphaCentauri-Underwear-End
 
 - type: entity
   id: LockerChiefMedicalOfficerFilled
@@ -251,11 +214,6 @@
       - id: RubberStampCMO
       - id: MedicalTechFabCircuitboard
       - id: BoxEncryptionKeyMedical
-      # AlphaCentauri-Underwear-Start
-      - id: ClothingUnderwearBottomBoxersCMO
-      - id: ClothingUnderwearBottomPantiesCMO
-      - id: ClothingUnderwearTopBraCMO
-      # AlphaCentauri-Underwear-End
 
 - type: entity
   id: LockerResearchDirectorFilledHardsuit
@@ -275,12 +233,6 @@
       - id: BoxEncryptionKeyScience
       - id: ClothingHeadsetAltScience
       - id: EncryptionKeyBinary
-      - id: BoxEncryptionKeyRobo
-      # AlphaCentauri-Underwear-Start
-      - id: ClothingUnderwearBottomBoxersRD
-      - id: ClothingUnderwearBottomPantiesRD
-      - id: ClothingUnderwearTopBraRD
-      # AlphaCentauri-Underwear-End
 
 - type: entity
   id: LockerResearchDirectorFilled
@@ -299,12 +251,6 @@
       - id: BoxEncryptionKeyScience
       - id: ClothingHeadsetAltScience
       - id: EncryptionKeyBinary
-      - id: BoxEncryptionKeyRobo
-      # AlphaCentauri-Underwear-Start
-      - id: ClothingUnderwearBottomBoxersRD
-      - id: ClothingUnderwearBottomPantiesRD
-      - id: ClothingUnderwearTopBraRD
-      # AlphaCentauri-Underwear-End
 
 - type: entity
   id: LockerHeadOfSecurityFilledHardsuit
@@ -314,17 +260,10 @@
   - type: StorageFill
     contents:
       - id: WeaponDisabler
-      - id: ClothingHeadHatCapHoS # Corvax-SecFashion
-        prob: 0.5
       - id: ClothingOuterCoatHoSTrench
       - id: ClothingMaskNeckGaiter
-      - id: ClothingOuterCoatHoSGreatcoat # Corvax-Resprite
       - id: ClothingOuterHardsuitSecurityRed
       - id: ClothingMaskGasSwat
-#      - id: ClothingShoeSlippersDuck # Corvax-Resprite: Need more space for style
-#        prob: 0.2
-      - id: DrinkVacuumFlask
-        prob: 0.8
       - id: ClothingBeltSecurityFilled
       - id: ClothingHeadsetAltSecurity
       - id: ClothingEyesGlassesSecurity
@@ -338,12 +277,6 @@
       - id: BoxEncryptionKeySecurity
       - id: HoloprojectorSecurity
       - id: BookSecretDocuments
-      - id: BookBusido # Corvax-Books
-      # AlphaCentauri-Underwear-Start
-      - id: ClothingUnderwearBottomBoxersHOS
-      - id: ClothingUnderwearBottomPantiesHOS
-      - id: ClothingUnderwearTopBraHOS
-      # AlphaCentauri-Underwear-End
 
 - type: entity
   id: LockerHeadOfSecurityFilled
@@ -353,11 +286,8 @@
   - type: StorageFill
     contents:
       - id: WeaponDisabler
-      - id: ClothingHeadHatCapHoS # Corvax-SecFashion
-        prob: 0.5
       - id: ClothingOuterCoatHoSTrench
       - id: ClothingMaskNeckGaiter
-      - id: ClothingOuterCoatHoSGreatcoat # Corvax-Resprite
       - id: ClothingBeltSecurityFilled
       - id: ClothingHeadsetAltSecurity
       - id: ClothingEyesGlassesSecurity
@@ -370,11 +300,6 @@
       - id: BoxEncryptionKeySecurity
       - id: HoloprojectorSecurity
       - id: BookSecretDocuments
-      # AlphaCentauri-Underwear-Start
-      - id: ClothingUnderwearBottomBoxersHOS
-      - id: ClothingUnderwearBottomPantiesHOS
-      - id: ClothingUnderwearTopBraHOS
-      # AlphaCentauri-Underwear-End
 
 - type: entity
   id: LockerFreezerVaultFilled
