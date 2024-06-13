@@ -1,4 +1,4 @@
-﻿using Content.Server.Botany.Components;
+using Content.Server.Botany.Components;
 using Content.Shared.Chemistry.Reagent;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
@@ -11,9 +11,6 @@ namespace Content.Server.Chemistry.ReagentEffects.PlantMetabolism
     {
         [DataField]
         public float Amount { get; protected set; } = 1;
-
-        [DataField]
-        public float Prob { get; protected set; } = 1; // = (80);
 
         /// <summary>
         /// Localisation key for the name of the adjusted attribute. Used for guidebook descriptions.
@@ -45,11 +42,7 @@ namespace Content.Server.Chemistry.ReagentEffects.PlantMetabolism
                                     || mustHaveAlivePlant && (plantHolderComponent.Seed == null || plantHolderComponent.Dead))
                 return false;
 
-            if (Prob >= 1f)
-                return true;
-
-            // Dependencies are never injected for reagents if you intend to do that for this.
-            return !(Prob <= 0f) && IoCManager.Resolve<IRobustRandom>().Prob(Prob);
+            return true;
         }
 
         protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)

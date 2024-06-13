@@ -1,18 +1,35 @@
 {
+<<<<<<< HEAD:Resources/Textures/AlphaCentauri/Clothing/Underwear/Bottom/heads/capitan/panties.rsi/meta.json
   "license": "CC-BY-SA-3.0",
   "copyright": "By discord user SWG#6421 (481693809806278657)",
+=======
+>>>>>>> upstream-w/master:Resources/Textures/Objects/Consumable/Drinks/xenobasher.rsi/meta.json
   "version": 1,
   "size": {
     "x": 32,
     "y": 32
   },
+<<<<<<< HEAD:Resources/Textures/AlphaCentauri/Clothing/Underwear/Bottom/heads/capitan/panties.rsi/meta.json
   "states": [
     {
       "name": "equipped-UNDERWEARB",
       "directions": 4
-    },
+=======
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Created by Hanzdegloker on github",
+  "states": [
     {
       "name": "icon"
+>>>>>>> upstream-w/master:Resources/Textures/Objects/Consumable/Drinks/xenobasher.rsi/meta.json
+    },
+    {
+      "name": "icon_empty"
+    },
+    {
+      "name": "fill-1"
+    },
+    {
+      "name": "fill-2"
     }
   ]
 }
