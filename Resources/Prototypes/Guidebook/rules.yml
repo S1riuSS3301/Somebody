@@ -5,6 +5,12 @@
   text: "/ServerInfo/Guidebook/ServerRules/DefaultRules.xml"
 
 - type: guideEntry
+  id: AlphaCentauriRuleset
+  name: guide-entry-rules
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/ServerRules/AlphaCentauri.xml"
+
+- type: guideEntry
   id: CoreRuleset
   name: guide-entry-rules-core-only
   ruleEntry: true
