@@ -48,7 +48,7 @@
   components:
   - type: MeteorSwarm
     announcement: station-event-space-dust-start-announcement
-    announcementSound: /Audio/Announcements/attention.ogg
+    announcementSound: /Audio/Coravx/Announcements/attention.ogg
     nonDirectional: true
     meteors:
       MeteorSpaceDust: 1
@@ -94,7 +94,7 @@
   components:
   - type: MeteorSwarm
     announcement: station-event-meteor-urist-start-announcement
-    announcementSound: /Audio/Announcements/attention.ogg
+    announcementSound: /Audio/Coravx/Announcements/attention.ogg
     meteors:
       MeteorUrist: 1
     waves:
