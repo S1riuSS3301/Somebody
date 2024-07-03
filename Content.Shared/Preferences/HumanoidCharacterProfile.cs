@@ -7,6 +7,7 @@ using Content.Shared.Humanoid.Prototypes;
 using Content.Shared.Preferences.Loadouts;
 using Content.Shared.Roles;
 using Content.Shared.Traits;
+using ERPStatus = Content.Shared.AlphaCentauri.ERPStatus;
 using Robust.Shared.Collections;
 using Robust.Shared.Configuration;
 using Robust.Shared.Enums;
@@ -72,6 +73,12 @@ namespace Content.Shared.Preferences
         public string FlavorText { get; set; } = string.Empty;
 
         /// <summary>
+        /// ERP status.
+        /// </summary>
+        [DataField]
+        public ERPStatus.EnumStatus ERPStatus { get; set; } //AlphaCentauri
+
+        /// <summary>
         /// Associated <see cref="SpeciesPrototype"/> for this profile.
         /// </summary>
         [DataField]
@@ -128,6 +135,7 @@ namespace Content.Shared.Preferences
         public HumanoidCharacterProfile(
             string name,
             string flavortext,
+            int erpStatus,
             string species,
             int age,
             Sex sex,
@@ -142,6 +150,7 @@ namespace Content.Shared.Preferences
         {
             Name = name;
             FlavorText = flavortext;
+            ERPStatus = (ERPStatus.EnumStatus) erpStatus;
             Species = species;
             Age = age;
             Sex = sex;
@@ -173,6 +182,7 @@ namespace Content.Shared.Preferences
         public HumanoidCharacterProfile(HumanoidCharacterProfile other)
             : this(other.Name,
                 other.FlavorText,
+                (int) other.ERPStatus,
                 other.Species,
                 other.Age,
                 other.Sex,
@@ -271,6 +281,13 @@ namespace Content.Shared.Preferences
         {
             return new(this) { FlavorText = flavorText };
         }
+
+        // AlphaCentauri-ERPStatus-Start
+        public HumanoidCharacterProfile WithERPStatus(ERPStatus.EnumStatus state)
+        {
+            return new(this) { ERPStatus = state };
+        }
+        // AlphaCentauri-ERPStatus-End
 
         public HumanoidCharacterProfile WithAge(int age)
         {

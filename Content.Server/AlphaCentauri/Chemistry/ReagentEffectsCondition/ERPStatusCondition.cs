@@ -1,11 +1,11 @@
 using Content.Server.DetailExaminable;
-using Content.Shared.Chemistry.Reagent;
+using Content.Shared.EntityEffects;
 using Content.Shared.AlphaCentauri.ERPStatus;
 using Robust.Shared.Prototypes;
 
 namespace Content.Server.AlphaCentauri.Chemistry.ReagentEffectsCondition;
 
-public sealed partial class ERPStatusCondition : ReagentEffectCondition
+public sealed partial class ERPStatusCondition : EntityEffectCondition
 {
     [DataField("erp")]
     public EnumStatus ERP = default!;
@@ -13,12 +13,12 @@ public sealed partial class ERPStatusCondition : ReagentEffectCondition
     [DataField("shouldHave")]
     public bool ShouldHave = true;
 
-    public override bool Condition(ReagentEffectArgs args)
+    public override bool Condition(EntityEffectBaseArgs args)
     {
-        if (!(args.EntityManager.HasComponent<DetailExaminableComponent>(args.SolutionEntity)))
+        if (!(args.EntityManager.HasComponent<DetailExaminableComponent>(args.TargetEntity)))
             return false;
 
-        if (args.EntityManager.GetComponent<DetailExaminableComponent>(args.SolutionEntity).ERPStatus == ERP)
+        if (args.EntityManager.GetComponent<DetailExaminableComponent>(args.TargetEntity).ERPStatus == ERP)
         {
             return ShouldHave;
         }
