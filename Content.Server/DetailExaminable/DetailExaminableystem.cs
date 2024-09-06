@@ -36,10 +36,10 @@ namespace Content.Server.DetailExaminable
                         markup.PushColor(Color.Yellow);
                     else
                         markup.PushColor(Color.Red);
-                    markup.AddMarkup(component.GetERPStatusName() + "\n\n");
+                    markup.AddMarkupOrThrow(component.GetERPStatusName() + "\n\n");
                     markup.PushColor(Color.White);
                     // AlphaCentauri-ERPStatus-End
-                    markup.AddMarkup(component.Content);
+                    markup.AddMarkupOrThrow(component.Content);
                     _examineSystem.SendExamineTooltip(args.User, uid, markup, false, false);
                 },
                 Text = Loc.GetString("detail-examinable-verb-text"),
