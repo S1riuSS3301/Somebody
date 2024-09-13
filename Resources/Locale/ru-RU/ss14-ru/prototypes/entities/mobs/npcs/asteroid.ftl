@@ -1,0 +1,22 @@
+ent-BaseMobAsteroid = { ent-BaseMob }
+  .desc = { ent-BaseMob.desc }
+ent-MobGoliath = голиаф
+    .desc = Массивное чудовище, использующее свои длинные щупальца для ловли добычи. Не рекомендуется угрожать им ни при каких условиях.
+ent-ActionGoliathTentacle = [color=red]Удар щупальцем[/color]
+    .desc = Используйте свои щупальца, чтобы схватить и оглушить игрока!
+ent-GoliathTentacle = щупальце
+    .desc = { "" }
+ent-BaseEffectGoliathTentacleSpawn = щупальце
+    .desc = { "" }
+ent-EffectGoliathTentacleSpawn = щупальце
+    .desc = { ent-BaseEffectGoliathTentacleSpawn.desc }
+ent-EffectGoliathTentacleRetract = { ent-BaseEffectGoliathTentacleSpawn }
+    .desc = { ent-BaseEffectGoliathTentacleSpawn.desc }
+ent-MobHivelord = hivelord
+    .desc = A truly alien creature, it is a mass of unknown organic material, constantly fluctuating. When attacking, pieces of it split off and attack in tandem with the original.
+ent-MobHivelordBrood = hivelord brood
+    .desc = A fragment of the original hivelord, rallying behind its original. One isn't much of a threat, but...
+ent-FoodHivelordRemains = hivelord remains
+    .desc = All that remains of a hivelord, it seems to be what allows it to break pieces of itself off without being hurt... its healing properties will soon become inert if not used quickly. Try not to think about what you're eating.
+ent-FoodHivelordRemainsInert = inert hivelord remains
+    .desc = All that remains of a hivelord... Now all is truly lost.

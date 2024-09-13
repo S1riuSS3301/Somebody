@@ -50,6 +50,7 @@ flavor-base-horrible = ужасно
 # lmao
 flavor-base-terrible = ужасающе
 flavor-base-mindful = разумно
+flavor-base-chewy = жевательно
 
 # Complex flavors. Put a flavor here when you want something that's more
 # specific.
@@ -112,7 +113,7 @@ flavor-complex-corn = как кукуруза
 flavor-complex-banana = как бананы
 flavor-complex-apple = как яблоки
 flavor-complex-cotton = как хлопок
-flavor-complex-bungo = как бунго
+flavor-complex-bungo = как тропическая сладость
 flavor-complex-raisins = как сушёный виноград
 flavor-complex-orange = как апельсины
 flavor-complex-watermelon = как арбуз
@@ -126,6 +127,7 @@ flavor-complex-vegetables = как овощи
 
 ## Complex foodstuffs (cooked foods, joke flavors, etc)
 
+flavor-complex-cherry = как вишня
 flavor-complex-pink = как розовый
 flavor-complex-curry = как карри
 flavor-complex-borsch-1 = как борщ
@@ -172,10 +174,13 @@ flavor-complex-light = как угасший свет
 
 flavor-complex-profits = как прибыль
 flavor-complex-fishops = как страшная рыбья операция
+flavor-complex-blue-pumpkin = как вода в бассейне
 flavor-complex-violets = как фиалки
-flavor-complex-pyrotton = like a burning mouth
+flavor-complex-pyrotton = как горящий рот
 flavor-complex-mothballs = как нафталиновые шарики
 flavor-complex-paint-thinner = как растворитель для краски
+flavor-complex-paper = как кашеобразная масса
+flavor-complex-compressed-meat = как спрессованное мясо
 flavor-complex-alcohol = как алкоголь
 flavor-complex-soda = как газировка
 flavor-complex-juice = как сок
@@ -248,6 +253,12 @@ flavor-complex-gin-tonic = как крепкая газировка с лимо�
 flavor-complex-screwdriver = как крепкий апельсиновый сок
 flavor-complex-cogchamp = как латунь
 flavor-complex-themartinez = как фиалки и лимонная водка
+flavor-complex-vodka-red-bool = как инфаркт
+flavor-complex-irish-bool = как кофеин и Ирландия
+flavor-complex-xeno-basher = как уничтожение жуков
+flavor-complex-budget-insuls-drink = как взлом шлюза
+flavor-complex-watermelon-wakeup = как сладкое пробуждение
+flavor-complex-rubberneck = как синтетика
 flavor-complex-irish-car-bomb = как шипучая пенка колы
 
 ### This is exactly what pilk tastes like. I'm not even joking. I might've been a little drunk though

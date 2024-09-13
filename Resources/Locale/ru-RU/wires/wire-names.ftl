@@ -39,6 +39,7 @@ wires-board-name-mech = Мех
 wires-board-name-fatextractor = Экстрактор жира
 wires-board-name-flatpacker = Упаковщик
 wires-board-name-spaceheater = Термостат
+wires-board-name-jukebox = Jukebox
 
 # names that get displayed in the wire hacking hud & admin logs.
 
@@ -66,3 +67,4 @@ wire-name-bomb-boom = БУУМ
 wire-name-bomb-bolt = БОЛТ
 wire-name-speech = ДНМК
 wire-name-listen = МИКР
+wire-name-log = ЛОГ
